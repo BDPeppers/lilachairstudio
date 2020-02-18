@@ -1,0 +1,23 @@
+//Variables
+$white: #fff
+$gray: #58595B
+$flower: #B2A9D2
+$text-gray: #252628
+$line-gray: gray
+$link-purple: #545593
+
+
+
+//Mixins
+@mixin flex($position, $direction)
+    display: flex
+    flex-direction: $direction
+    justify-content: $position
+    align-items: center
+
+@mixin wrap($direction)
+    display: flex
+    flex-direction: $direction
+    max-width: 1024px
+    width: 100%
+    margin: auto
