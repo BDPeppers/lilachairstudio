@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lilachairstudio/static/css/main.547f800a.chunk.css",
+    "main.js": "/lilachairstudio/static/js/main.182912e2.chunk.js",
+    "main.js.map": "/lilachairstudio/static/js/main.182912e2.chunk.js.map",
+    "runtime-main.js": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js",
+    "runtime-main.js.map": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js.map",
+    "static/js/2.5e9b55db.chunk.js": "/lilachairstudio/static/js/2.5e9b55db.chunk.js",
+    "static/js/2.5e9b55db.chunk.js.map": "/lilachairstudio/static/js/2.5e9b55db.chunk.js.map",
+    "index.html": "/lilachairstudio/index.html",
+    "precache-manifest.bf775e5366b134b253c6521ded1ab734.js": "/lilachairstudio/precache-manifest.bf775e5366b134b253c6521ded1ab734.js",
+    "service-worker.js": "/lilachairstudio/service-worker.js",
+    "static/css/main.547f800a.chunk.css.map": "/lilachairstudio/static/css/main.547f800a.chunk.css.map",
+    "static/js/2.5e9b55db.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.5e9b55db.chunk.js.LICENSE.txt",
+    "static/media/flower.PNG": "/lilachairstudio/static/media/flower.c508dd67.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cbbdaa8.js",
+    "static/js/2.5e9b55db.chunk.js",
+    "static/css/main.547f800a.chunk.css",
+    "static/js/main.182912e2.chunk.js"
+  ]
+}
