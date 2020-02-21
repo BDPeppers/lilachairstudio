@@ -1,0 +1,25 @@
+@import './../mfv'    
+
+footer
+    background-color: $foot-gray
+div.foot-wrap
+    @include wrap(column)
+div.foot-sect
+    @include light-border(gray)
+    min-height: 20vh
+    @include flex(center, row)
+    width: 100%
+    svg.foot-icon
+        font-size: 3.5rem
+        width: 30%
+    div.foot-text
+        width: 70%
+    h2.foot-detail
+        font-size: 1.2rem
+div.foot-social-sect
+    justify-content: space-evenly
+    i.foot-social
+        font-size: 3.5rem
+
+
+    

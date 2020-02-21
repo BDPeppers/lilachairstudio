@@ -9,8 +9,6 @@ import Header from './components/features/header';
 //React Router
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
-
-
 //React Routes
 import About from './components/pages/about';
 import Home from './components/pages/home';
@@ -23,7 +21,7 @@ function App() {
   return (
     <main className="App">
       <Router>
-        <Header/>
+        <Home/>
         <Switch>
           <Route path="(/|/Home)" exact component={Home}/>
           <Route path="/About" exact component={About}/>
@@ -31,6 +29,7 @@ function App() {
           <Route path="/Gallery" exact component={Gallery}/>
           <Route path="/BookAnAppointment" exact component={Book}/>
         </Switch>
+
       </Router>
 
     </main>

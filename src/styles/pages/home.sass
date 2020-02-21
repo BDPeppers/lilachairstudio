@@ -1,0 +1,21 @@
+@import './../mfv'  
+
+div.page-cards
+    @include wrap(row)
+div.page-card
+    @include light-border(gray)
+    @include flex(center, column)
+    flex-basis: 100%
+    height: 25vh
+    justify-content: space-evenly
+    h1.card-header
+        width: 100%
+        font-size: 2.5rem
+        padding-left: 5%
+    h3.card-desc
+        font-size: 1.3rem
+        width: 75%
+        padding-left: 10%
+    svg.card-arrow
+        font-size: 2.5rem !important
+        padding-left: 65%
