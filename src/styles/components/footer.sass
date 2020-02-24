@@ -9,15 +9,40 @@ div.foot-sect
     min-height: 20vh
     @include flex(center, row)
     width: 100%
+    padding: .5rem 0
     svg.foot-icon
         font-size: 3.5rem
         width: 30%
     div.foot-text
         width: 70%
-    h2.foot-detail
+    h2.foot-detail, h2.day, h2.open, h2.close, h2.dash,a.foot-link
+        font-size: 1.4rem
+    a.foot-link
+       .foot-detail
+           font-weight: 700
+div.foot-hours
+    h2.foot-detail, h2.day, h2.open, h2.close, h2.dash,a.foot-link
         font-size: 1.2rem
+    // h2.open, h2.close
+    //     letter-spacing: .1rem
+    a.foot-link
+       .foot-detail
+           font-weight: 700
+div.format
+    display: flex
+    width: 90%
+    h2.day
+        width: 20%
+    h2.open
+        width: 30%
+    h2.dash
+        width: 10%
+    padding: .1rem 0
+
+    
 div.foot-social-sect
     justify-content: space-evenly
+    min-height: 12vh
     i.foot-social
         font-size: 3.5rem
 

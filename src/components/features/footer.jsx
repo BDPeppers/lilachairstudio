@@ -1,13 +1,12 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 //design assets
 import RoomIcon from '@material-ui/icons/Room';
 // import MapIcon from '@material-ui/icons/Map';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import EmailIcon from '@material-ui/icons/Email';
 import WatchLaterIcon from '@material-ui/icons/WatchLater';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
+
 
 const Footer  = () => {
     return (
@@ -19,16 +18,53 @@ const Footer  = () => {
                     <h2 className="foot-detail">2531 Piedmont Rd NE STE 100</h2>
                     <h2 className="foot-detail">Suite 113</h2>
                     <h2 className="foot-detail">Atlanta, GA 30324</h2>
-                    <h2 className="foot-detail">Find on map</h2>
+                    <a className='foot-link' href='https://goo.gl/maps/N4mYzB4GbMmnLemB7'>
+                        <h2 className="foot-detail">View on map</h2>
+                    </a>
                 </div>
                 
             </div>
-            <div className='foot-sect'>
+            <div className='foot-sect foot-hours'>
                 <WatchLaterIcon className='foot-icon' />
                 <div className="foot-text">
-                    <h2 className="foot-detail">Salon Hours:</h2>
-                    <h2 className="foot-detail">MON - FRI: 00:00XX - 00:00XX</h2>
-                    <h2 className="foot-detail">SAT - SUN 00:00XX - 00:00XX</h2>
+                    <div className="format">
+                        <h2 className="day">MON:</h2>
+                        <h2 className="open">CLOSED</h2>
+                    </div>
+                    <div className="format">
+                        <h2 className="day">TUE:</h2>
+                        <h2 className="open">12:00PM</h2>
+                        <h2 className="dash">-</h2>
+                        <h2 className="close">5:00PM</h2>
+                    </div>
+                    <div className="format">
+                        <h2 className="day">WED:</h2>
+                        <h2 className="open">10:00AM</h2>
+                        <h2 className="dash">-</h2>
+                        <h2 className="close">4:00PM</h2>
+                    </div>
+                    <div className="format">
+                        <h2 className="day">THU:</h2>
+                        <h2 className="open">12:00PM</h2>
+                        <h2 className="dash">-</h2>
+                        <h2 className="close">8:00PM</h2>
+                    </div>
+                    <div className="format">
+                        <h2 className="day">FRI:</h2>
+                        <h2 className="open">10:00AM</h2>
+                        <h2 className="dash">-</h2>
+                        <h2 className="close">4:00PM</h2>
+                    </div>
+                    <div className="format">
+                        <h2 className="day">SAT:</h2>
+                        <h2 className="open">9:00AM</h2>
+                        <h2 className="dash">-</h2>
+                        <h2 className="close">5:00PM</h2>
+                    </div>
+                    <div className="format">
+                        <h2 className="day">SUN:</h2>
+                        <h2 className="open">CLOSED</h2>
+                    </div>
                 </div>
                 
 
@@ -50,18 +86,15 @@ const Footer  = () => {
                 
             </div>
             <div className='foot-sect foot-social-sect'>
-                <a href="#">
-                    <i className="foot-social fab fa-facebook-square"></i>
+                <a href="https://www.facebook.com/LilacHairStudioATL/">
+                    <i className="foot-social fab fa-facebook-square"/>
                 </a>
-                <a href="#">
-                    <i className="foot-social fab fa-instagram"></i>
+                <a href="https://www.instagram.com/lilachairstudiosatl/">
+                    <i className="foot-social fab fa-instagram"/>
                 </a>
-                <a href="#">
-                    <i className="foot-social fab fa-yelp"></i>
+                <a href="https://www.yelp.com/biz/lilac-hair-studio-atl-atlanta">
+                    <i className="foot-social fab fa-yelp"/>
                 </a>
-                
-                
-                
             </div>
         </div>
         

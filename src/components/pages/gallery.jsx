@@ -1,10 +1,20 @@
-import React from 'react'
+import React from 'react';
+
+//imported components
+import Header from '../features/header';
+import Footer from '../features/footer';
+
+//design assets
 
 const Gallery = () => {
     return (
-     <section>
-         
-     </section>
+        <>
+        <Header/>
+        <section>
+            
+        </section>
+        <Footer/>
+        </>
     )
 }
 

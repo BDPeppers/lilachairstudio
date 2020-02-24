@@ -12,8 +12,11 @@
     font-family: 'Muli', sans-serif
     overflow-x: hidden
 
-h1,h2,h3,h4,h5,h6,p,svg,i,span,button
+h1,h2,h3,h4,h5,h6,p,svg,i,span,button,a
     color: $gray
+    font-weight: 300
+a
+    text-decoration: none
 section,html,boddy
     height: 100%
 
@@ -21,13 +24,18 @@ img
     height: 100%
     width: 100%
 
-button.MuiButton-containedPrimary
+div.btn-box
+    width: 100vw
+button.MuiButton-containedPrimary, a.MuiButton-containedPrimary
     background-color: $flower !important
     border-radius: unset
     height: 10vh
+    width: 100%
     span.MuiButton-label
         color: $white
         font-size: 1.5rem
+        text-shadow: 0.4px 0.4px black
+        text-transform: unset !important
 
 div.landing-page
     max-height: 90vh
@@ -35,8 +43,38 @@ div.landing-page
     @include wrap(column)
     justify-content: space-between
 div.landing-img-box
-    height: 80vh
+    height: 60vh
     @include flexCenter()
     img
         height: 40%
+
+div.content-box
+    @include wrap(column)
+    text-align: center
+    width: 80%
+    h1.mvp
+        font-size: 3rem
+        font-weight: 900
+        padding-top: 2rem
+    h1.content
+        font-size: 1.7rem
+        text-align: left
+        font-weight: 900
+        font-style: italic
+    h2.content
+        font-size: 1.7rem
+    h3.content
+        font-size: 1.5rem
+    p.content
+        font-size: 1.2rem
+        padding: .5rem 0
+        line-height: 1.7rem
+        color: black
+    p.mvp
+        text-align: right
+        font-size: 1.2rem
+        color: black
+    
+   
+    
     

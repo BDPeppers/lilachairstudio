@@ -1,9 +1,6 @@
 import React from 'react';
 import './styles/main.sass'
 
-//import components
-import Header from './components/features/header';
-
 //SEO
 
 //React Router
@@ -21,15 +18,14 @@ function App() {
   return (
     <main className="App">
       <Router>
-        <Home/>
         <Switch>
-          <Route path="(/|/Home)" exact component={Home}/>
-          <Route path="/About" exact component={About}/>
-          <Route path="/Services" exact component={Services}/>
-          <Route path="/Gallery" exact component={Gallery}/>
-          <Route path="/BookAnAppointment" exact component={Book}/>
+          {/* Route Path doesn't work on github /Home */}
+          <Route path="(/|/Home|/lilachairstudio|/lilachairstudio/Home)" exact component={Home}/>
+          <Route path="(/About|/lilachairstudio/About)" exact component={About}/>
+          <Route path="(/Services|/lilachairstudio/Services)" exact component={Services}/>
+          <Route path="(/Gallery|/lilachairstudio/Gallery" exact component={Gallery}/>
+          <Route path="(/Book|/lilachairstudio/Book)" exact component={Book}/>
         </Switch>
-
       </Router>
 
     </main>
