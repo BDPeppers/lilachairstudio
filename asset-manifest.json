@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/lilachairstudio/static/css/main.0890fafd.chunk.css",
-    "main.js": "/lilachairstudio/static/js/main.06778e69.chunk.js",
-    "main.js.map": "/lilachairstudio/static/js/main.06778e69.chunk.js.map",
+    "main.css": "/lilachairstudio/static/css/main.913a2e19.chunk.css",
+    "main.js": "/lilachairstudio/static/js/main.6bce03df.chunk.js",
+    "main.js.map": "/lilachairstudio/static/js/main.6bce03df.chunk.js.map",
     "runtime-main.js": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js",
     "runtime-main.js.map": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js.map",
-    "static/js/2.75373c7d.chunk.js": "/lilachairstudio/static/js/2.75373c7d.chunk.js",
-    "static/js/2.75373c7d.chunk.js.map": "/lilachairstudio/static/js/2.75373c7d.chunk.js.map",
+    "static/js/2.e3d96790.chunk.js": "/lilachairstudio/static/js/2.e3d96790.chunk.js",
+    "static/js/2.e3d96790.chunk.js.map": "/lilachairstudio/static/js/2.e3d96790.chunk.js.map",
     "index.html": "/lilachairstudio/index.html",
-    "precache-manifest.6266583cbeeb18ab59fb127c0c8fa0cd.js": "/lilachairstudio/precache-manifest.6266583cbeeb18ab59fb127c0c8fa0cd.js",
+    "precache-manifest.119f9a98084f55cda4f0bc14768c8f18.js": "/lilachairstudio/precache-manifest.119f9a98084f55cda4f0bc14768c8f18.js",
     "service-worker.js": "/lilachairstudio/service-worker.js",
-    "static/css/main.0890fafd.chunk.css.map": "/lilachairstudio/static/css/main.0890fafd.chunk.css.map",
-    "static/js/2.75373c7d.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.75373c7d.chunk.js.LICENSE.txt",
+    "static/css/main.913a2e19.chunk.css.map": "/lilachairstudio/static/css/main.913a2e19.chunk.css.map",
+    "static/js/2.e3d96790.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.e3d96790.chunk.js.LICENSE.txt",
+    "static/media/MVP.PNG": "/lilachairstudio/static/media/MVP.dc87bf76.PNG",
     "static/media/flower.PNG": "/lilachairstudio/static/media/flower.c508dd67.PNG",
-    "static/media/logo.jpg": "/lilachairstudio/static/media/logo.13f16f9b.jpg"
+    "static/media/logo.jpg": "/lilachairstudio/static/media/logo.13f16f9b.jpg",
+    "static/media/space1.PNG": "/lilachairstudio/static/media/space1.b47b482b.PNG",
+    "static/media/space2.PNG": "/lilachairstudio/static/media/space2.67539e8d.PNG",
+    "static/media/space3.PNG": "/lilachairstudio/static/media/space3.4b55a45f.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.7cbbdaa8.js",
-    "static/js/2.75373c7d.chunk.js",
-    "static/css/main.0890fafd.chunk.css",
-    "static/js/main.06778e69.chunk.js"
+    "static/js/2.e3d96790.chunk.js",
+    "static/css/main.913a2e19.chunk.css",
+    "static/js/main.6bce03df.chunk.js"
   ]
 }
