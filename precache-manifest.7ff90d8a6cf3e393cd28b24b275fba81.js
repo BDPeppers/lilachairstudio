@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa4fe5b50fe8b61045319f17faa54ebf",
+    "revision": "d428890942280994413fa0e77c15f047",
     "url": "/lilachairstudio/index.html"
   },
   {
-    "revision": "9dd4e6ca204ffa90e1e6",
-    "url": "/lilachairstudio/static/css/main.41f03c74.chunk.css"
+    "revision": "6ffa0ce88bc1fe435cbe",
+    "url": "/lilachairstudio/static/css/main.a964b893.chunk.css"
   },
   {
-    "revision": "5cf5a0fe6d942bbd7c24",
-    "url": "/lilachairstudio/static/js/2.e3d96790.chunk.js"
+    "revision": "b43653ef4e0a34cd519e",
+    "url": "/lilachairstudio/static/js/2.7b1ce10e.chunk.js"
   },
   {
     "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/lilachairstudio/static/js/2.e3d96790.chunk.js.LICENSE.txt"
+    "url": "/lilachairstudio/static/js/2.7b1ce10e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9dd4e6ca204ffa90e1e6",
-    "url": "/lilachairstudio/static/js/main.3ea6d1c4.chunk.js"
+    "revision": "6ffa0ce88bc1fe435cbe",
+    "url": "/lilachairstudio/static/js/main.d19c57ce.chunk.js"
   },
   {
     "revision": "7c121d8e3195b7bbd071",

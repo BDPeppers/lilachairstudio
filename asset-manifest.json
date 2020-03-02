@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lilachairstudio/static/css/main.41f03c74.chunk.css",
-    "main.js": "/lilachairstudio/static/js/main.3ea6d1c4.chunk.js",
-    "main.js.map": "/lilachairstudio/static/js/main.3ea6d1c4.chunk.js.map",
+    "main.css": "/lilachairstudio/static/css/main.a964b893.chunk.css",
+    "main.js": "/lilachairstudio/static/js/main.d19c57ce.chunk.js",
+    "main.js.map": "/lilachairstudio/static/js/main.d19c57ce.chunk.js.map",
     "runtime-main.js": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js",
     "runtime-main.js.map": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js.map",
-    "static/js/2.e3d96790.chunk.js": "/lilachairstudio/static/js/2.e3d96790.chunk.js",
-    "static/js/2.e3d96790.chunk.js.map": "/lilachairstudio/static/js/2.e3d96790.chunk.js.map",
+    "static/js/2.7b1ce10e.chunk.js": "/lilachairstudio/static/js/2.7b1ce10e.chunk.js",
+    "static/js/2.7b1ce10e.chunk.js.map": "/lilachairstudio/static/js/2.7b1ce10e.chunk.js.map",
     "index.html": "/lilachairstudio/index.html",
-    "precache-manifest.a30195f1ba663a3dc11d64c180a28732.js": "/lilachairstudio/precache-manifest.a30195f1ba663a3dc11d64c180a28732.js",
+    "precache-manifest.7ff90d8a6cf3e393cd28b24b275fba81.js": "/lilachairstudio/precache-manifest.7ff90d8a6cf3e393cd28b24b275fba81.js",
     "service-worker.js": "/lilachairstudio/service-worker.js",
-    "static/css/main.41f03c74.chunk.css.map": "/lilachairstudio/static/css/main.41f03c74.chunk.css.map",
-    "static/js/2.e3d96790.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.e3d96790.chunk.js.LICENSE.txt",
+    "static/css/main.a964b893.chunk.css.map": "/lilachairstudio/static/css/main.a964b893.chunk.css.map",
+    "static/js/2.7b1ce10e.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.7b1ce10e.chunk.js.LICENSE.txt",
     "static/media/MVP.PNG": "/lilachairstudio/static/media/MVP.dc87bf76.PNG",
     "static/media/flower.PNG": "/lilachairstudio/static/media/flower.c508dd67.PNG",
     "static/media/logo.jpg": "/lilachairstudio/static/media/logo.13f16f9b.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7cbbdaa8.js",
-    "static/js/2.e3d96790.chunk.js",
-    "static/css/main.41f03c74.chunk.css",
-    "static/js/main.3ea6d1c4.chunk.js"
+    "static/js/2.7b1ce10e.chunk.js",
+    "static/css/main.a964b893.chunk.css",
+    "static/js/main.d19c57ce.chunk.js"
   ]
 }
