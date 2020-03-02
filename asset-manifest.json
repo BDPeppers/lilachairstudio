@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lilachairstudio/static/css/main.913a2e19.chunk.css",
-    "main.js": "/lilachairstudio/static/js/main.824c6012.chunk.js",
-    "main.js.map": "/lilachairstudio/static/js/main.824c6012.chunk.js.map",
+    "main.css": "/lilachairstudio/static/css/main.41f03c74.chunk.css",
+    "main.js": "/lilachairstudio/static/js/main.3ea6d1c4.chunk.js",
+    "main.js.map": "/lilachairstudio/static/js/main.3ea6d1c4.chunk.js.map",
     "runtime-main.js": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js",
     "runtime-main.js.map": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js.map",
     "static/js/2.e3d96790.chunk.js": "/lilachairstudio/static/js/2.e3d96790.chunk.js",
     "static/js/2.e3d96790.chunk.js.map": "/lilachairstudio/static/js/2.e3d96790.chunk.js.map",
     "index.html": "/lilachairstudio/index.html",
-    "precache-manifest.3a3b1c68e22cfba2bce3a44657c50139.js": "/lilachairstudio/precache-manifest.3a3b1c68e22cfba2bce3a44657c50139.js",
+    "precache-manifest.a30195f1ba663a3dc11d64c180a28732.js": "/lilachairstudio/precache-manifest.a30195f1ba663a3dc11d64c180a28732.js",
     "service-worker.js": "/lilachairstudio/service-worker.js",
-    "static/css/main.913a2e19.chunk.css.map": "/lilachairstudio/static/css/main.913a2e19.chunk.css.map",
+    "static/css/main.41f03c74.chunk.css.map": "/lilachairstudio/static/css/main.41f03c74.chunk.css.map",
     "static/js/2.e3d96790.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.e3d96790.chunk.js.LICENSE.txt",
     "static/media/MVP.PNG": "/lilachairstudio/static/media/MVP.dc87bf76.PNG",
     "static/media/flower.PNG": "/lilachairstudio/static/media/flower.c508dd67.PNG",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7cbbdaa8.js",
     "static/js/2.e3d96790.chunk.js",
-    "static/css/main.913a2e19.chunk.css",
-    "static/js/main.824c6012.chunk.js"
+    "static/css/main.41f03c74.chunk.css",
+    "static/js/main.3ea6d1c4.chunk.js"
   ]
 }
