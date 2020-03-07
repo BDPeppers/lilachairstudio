@@ -9,20 +9,22 @@ const Header  = () => {
      <header>
          <nav>  
             <div className='nav-flower'>
-                <img src={flower} alt="flower"/>
+                <Link to='/lilachairstudio/Home'>
+                    <img src={flower} alt="flower"/>
+                </Link>
             </div>
             <div className='desktop-links'>
-                <div>
-                    <Link>About</Link>
+                <div className='desktop-link'>
+                    <Link to='/lilachairstudio/About'>About</Link>
                 </div>
-                <div>
-                    <Link>Services</Link>
+                <div className='desktop-link'>
+                    <Link to='/lilachairstudio/Services'>Services</Link>
                 </div>
-                <div>
-                    <Link>Gallery</Link>
+                <div className='desktop-link'>
+                    <Link to='/lilachairstudio/Gallery'>Gallery</Link>
                 </div>
-                <div>
-                    <Link>Book</Link>
+                <div className='desktop-link'>
+                    <Link to='/lilachairstudio/Book'>Book</Link>
                 </div>
             </div>
             <div className='mobile-links'>

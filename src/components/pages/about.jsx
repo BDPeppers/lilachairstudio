@@ -19,9 +19,9 @@ const About = () => {
             <p className="content">Owner / Colorist / Stylist</p>
         </div>
         <div className='landing-img-box aboutPage-img-box'>
-            <img src={MVP} alt="Kristin Mealor"/>
+            <img className="lazyload" src={MVP} alt="Kristin Mealor"/>
         </div>
-        <div className='content-box'>
+        <div className='content-box quote-box'>
             <p className='content'>
                 "There's not a day that goes by that I'm not thankful thatI've found my passion
                 and calling in life. I wouldn't do anything else."
@@ -77,9 +77,31 @@ const About = () => {
             </p>
         </div>
 
+        <div className="content-box ">
+            <h1 className="content content-header">Salon</h1>
+            <div className="img-collage">
+                <img className='content-img salon' src={space1} alt="Atlanta Salon"/>
+                <img className='content-img salon' src={space2} alt="Atlanta Salon"/>
+            </div>
+            <p className='content caption'>
+                SEO content -> Search Goals: Atlanta Studio, Best salon in Atlanta, Atlanta Hair Salon, Atlanta Hair, Atlanta Hair Stylist, Atlanta Hair Color, Atlanta Hair Colorist
+            </p>
+        </div>
+        
+        <div className="content-box ">
+            <h1 className="content content-header">Products</h1>
+            <div className="img-collage">
+                <img className='content-img products' src={space3} alt="Davine's Hair"/>
+            </div>
+            <p className='content caption'>
+                Lorem ipsum is placeholder text commonly used in the
+                graphic, print, and publishing industries for previewing
+                layouts and visual mockups.
+            </p>
+        </div>
+
         <MapBox/>
 
-    
     </section>
     <Footer/>
     </>

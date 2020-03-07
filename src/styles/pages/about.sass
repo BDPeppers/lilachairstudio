@@ -1,14 +1,30 @@
 @import './../mfv'    
 section
-    div.about-box
+    div.about-box, div.quote-box
         width: 90%
+        margin: auto
         padding: 1rem 0
+        
         p.content
             text-align: left
+    div.quote-box
+        padding-bottom: 10rem
+        @media screen and ( min-width: 900px )
+            width: 60%
+        p.content
+            text-align: center
+            width: 95%
+            margin: auto
     div.aboutPage-img-box
-        height: 40vh
+        height: 50vh
+        margin: auto
+        @media screen and ( min-width: 900px )
+            width: 65%
+            height: 65vh
         img
             width: 90%
             height: 80%
             border-radius: .5rem
+            @media screen and ( min-width: 900px )
+                width: 75%
         

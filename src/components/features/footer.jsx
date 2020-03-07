@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+
 //design assets
 import RoomIcon from '@material-ui/icons/Room';
 // import MapIcon from '@material-ui/icons/Map';

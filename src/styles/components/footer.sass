@@ -2,35 +2,50 @@
 
 footer
     background-color: $foot-gray
+    @include top-border(gray)
+    
 div.foot-wrap
     @include wrap(column)
+    @media screen and ( min-width: 700px )
+        @include wrap(row)
+        
 div.foot-sect
     @include light-border(gray)
     min-height: 20vh
     @include flex(center, row)
     width: 100%
     padding: .5rem 0
+    @media screen and ( min-width: 700px )
+        flex-basis: 50%
     svg.foot-icon
         font-size: 3.5rem
         width: 30%
+        @media screen and ( min-width: 425px )
+            font-size: 4.5rem
     div.foot-text
         width: 70%
     h2.foot-detail, h2.day, h2.open, h2.close, h2.dash,a.foot-link
         font-size: 1.4rem
+        @media screen and ( min-width: 425px )
+            font-size: 1.7rem
+        @media screen and ( min-width: 700px )
+            font-size: 2rem
     a.foot-link
        .foot-detail
            font-weight: 700
 div.foot-hours
     h2.foot-detail, h2.day, h2.open, h2.close, h2.dash,a.foot-link
         font-size: 1.2rem
-    // h2.open, h2.close
-    //     letter-spacing: .1rem
+        @media screen and ( min-width: 425px )
+            font-size: 1.5rem
     a.foot-link
        .foot-detail
            font-weight: 700
 div.format
     display: flex
     width: 90%
+    @media screen and ( min-width: 425px )
+        width: 70%
     h2.day
         width: 20%
     h2.open
@@ -43,8 +58,11 @@ div.format
 div.foot-social-sect
     justify-content: space-evenly
     min-height: 12vh
+    flex-basis: 100%
     i.foot-social
         font-size: 3.5rem
+        @media screen and ( min-width: 425px )
+            font-size: 4.5rem
 
 
     

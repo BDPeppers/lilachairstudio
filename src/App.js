@@ -1,10 +1,12 @@
 import React from 'react';
 import './styles/main.sass'
 
-//SEO
-
+////SEO
 //React Router
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
+import ScrollToTop from 'react-router-scroll-top';
 
 //React Routes
 import About from './components/pages/about';
@@ -18,14 +20,16 @@ function App() {
   return (
     <main className="App">
       <Router>
+        <ScrollToTop>
         <Switch>
           {/* Route Path doesn't work on github /Home */}
-          <Route path="(/|/Home|/lilachairstudio|/lilachairstudio/Home)" exact component={Home}/>
-          <Route path="(/About|/lilachairstudio/About)" exact component={About}/>
-          <Route path="(/Services|/lilachairstudio/Services)" exact component={Services}/>
-          <Route path="(/Gallery|/lilachairstudio/Gallery" exact component={Gallery}/>
-          <Route path="(/Book|/lilachairstudio/Book)" exact component={Book}/>
+          <Route path="(/lilachairstudio|/lilachairstudio/Home)" exact component={Home}/>
+          <Route path="(/lilachairstudio/About)" exact component={About}/>
+          <Route path="(/lilachairstudio/Services)" exact component={Services}/>
+          <Route path="(/lilachairstudio/Gallery)" exact component={Gallery}/>
+          <Route path="(/lilachairstudio/Book)" exact component={Book}/>
         </Switch>
+        </ScrollToTop>
       </Router>
 
     </main>

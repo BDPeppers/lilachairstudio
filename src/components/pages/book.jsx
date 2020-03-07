@@ -15,7 +15,7 @@ const Book = () => {
         <section>
         <div className='landing-page'>
             <div className='landing-img-box bookPage-img-box'>
-                <img src={logo} alt="LOGO" />
+                <img className="lazyload" src={logo} alt="LOGO" />
             </div>
             <div className="content-box ">
                 <h2 className='content'>
@@ -25,11 +25,11 @@ const Book = () => {
                 </h2>
             </div>
             <div className="content-box">
-                <h3 className="content">Questions? Feel free to contact us!</h3>
+                <h2 className="content">Questions? Feel free to contact us!</h2>
                 <br/>
-                <h3 className="content">Phone: 404-553-6423</h3>
+                <h2 className="content">Phone: 404-553-6423</h2>
                 <br/>
-                <h3 className="content">Email: lilachairstudio@gmail.com</h3>
+                <h2 className="content">Email: lilachairstudio@gmail.com</h2>
             </div>
             <div className="btn-box">
                 <Button className='book-btn-full' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/'>
