@@ -14,6 +14,8 @@ import Home from './components/pages/home';
 import Gallery from './components/pages/gallery';
 import Services from './components/pages/services';
 import Book from './components/pages/book';
+import ServiceDetail from './components/pages/serviceDetail';
+//design Assets
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
           <Route path="(/lilachairstudio/Services)" exact component={Services}/>
           <Route path="(/lilachairstudio/Gallery)" exact component={Gallery}/>
           <Route path="(/lilachairstudio/Book)" exact component={Book}/>
+          <Route path="(/lilachairstudio/Services/Service)" exact component={ServiceDetail}/>
         </Switch>
         </ScrollToTop>
       </Router>

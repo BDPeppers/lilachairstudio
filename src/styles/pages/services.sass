@@ -9,7 +9,7 @@ div.service-cards
         margin: 1.5rem .5rem
         height: 50vh
         @media screen and ( min-width: 700px )
-            flex-basis: 40%
+            flex-basis: 35%
             margin: 1.5rem 1rem
 
 div.underline-header
@@ -28,8 +28,11 @@ div.underline-header
 
 
 img.card-img
-    height: 35vh
-    width: 100%
+    padding-top: 1vh
+    height: 34vh
+    @media screen and ( min-width: 1400px )
+        width: unset !important
+        margin: auto
 img.MuiCardMedia-img
     object-fit: fill !important
 div.MuiCardContent-root
@@ -57,11 +60,33 @@ div.MuiCardActions-root
     padding: 0
     width: 100%
     background-color: $flower
+    span.MuiButton-label, a.MuiButtonBase-root
+        font-size: 1.7rem !important
+        color: $white !important
+        width: 100%
+        
 button.MuiButtonBase-root
     padding: 0
     text-transform: unset
     width: 100%
-    span.MuiButton-label
-        font-size: 1.5rem
-        color: $white
-        
+
+
+div.service-img-box
+    display: flex
+    justify-content: center
+    height: 40vh !important
+div.service-box
+    padding-bottom: 10rem !important
+    p.content
+        width: 85%
+        padding: 1rem 0
+        margin: auto
+h1.service-header
+    padding-top: 5rem !important
+    padding-bottom: 2rem !important
+
+div.service-btn
+    max-width: 100rem
+    margin: auto
+    @media screen and ( min-width: 700px )
+        padding-bottom: 10rem

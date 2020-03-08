@@ -20,6 +20,9 @@ div.foot-sect
     svg.foot-icon
         font-size: 3.5rem
         width: 30%
+        :hover
+            transform: scale(1.03)
+            overflow: hidden
         @media screen and ( min-width: 425px )
             font-size: 4.5rem
     div.foot-text
@@ -59,8 +62,13 @@ div.foot-social-sect
     justify-content: space-evenly
     min-height: 12vh
     flex-basis: 100%
-    i.foot-social
+    overflow: hidden
+    :hover
+        transform: scale(1.03)
+        overflow: hidden
+    svg.foot-social
         font-size: 3.5rem
+        
         @media screen and ( min-width: 425px )
             font-size: 4.5rem
 

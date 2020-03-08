@@ -2,11 +2,12 @@ import React from 'react'
 
 //design assets
 import RoomIcon from '@material-ui/icons/Room';
-// import MapIcon from '@material-ui/icons/Map';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import EmailIcon from '@material-ui/icons/Email';
 import WatchLaterIcon from '@material-ui/icons/WatchLater';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faInstagram, faYelp, faFacebookSquare} from '@fortawesome/free-brands-svg-icons'
 
 const Footer  = () => {
     return (
@@ -66,9 +67,8 @@ const Footer  = () => {
                         <h2 className="open">CLOSED</h2>
                     </div>
                 </div>
-                
-
             </div>
+
             <div className='foot-sect'>
                 <EmailIcon className='foot-icon' />
                 <div className="foot-text">
@@ -87,13 +87,13 @@ const Footer  = () => {
             </div>
             <div className='foot-sect foot-social-sect'>
                 <a href="https://www.facebook.com/LilacHairStudioATL/">
-                    <i className="foot-social fab fa-facebook-square"/>
+                <FontAwesomeIcon className="foot-social" icon={faFacebookSquare} />
                 </a>
                 <a href="https://www.instagram.com/lilachairstudiosatl/">
-                    <i className="foot-social fab fa-instagram"/>
+                <FontAwesomeIcon className="foot-social" icon={faInstagram} />
                 </a>
                 <a href="https://www.yelp.com/biz/lilac-hair-studio-atl-atlanta">
-                    <i className="foot-social fab fa-yelp"/>
+                    <FontAwesomeIcon className="foot-social" icon={faYelp} />
                 </a>
             </div>
         </div>

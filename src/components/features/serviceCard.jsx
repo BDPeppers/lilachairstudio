@@ -1,4 +1,5 @@
 import React from 'react';
+//material
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -6,9 +7,24 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+//react router
+import {Link} from 'react-router-dom';
+//redux
+import * as actions from '../../actions/serviceActions';
+import {connect} from 'react-redux';
 
 const ServiceCard = (props) => {
+  const serviceInfo = {
+    img: props.imgProp,
+    price: props.priceProp,
+    time: props.timeProp,
+    name: props.serviceProp
+  }
+  
+  //= [props.imgProp, props.serviceProp, props.timeProp, props.priceProp];
+  
+  console.log(serviceInfo);
+  // console.log(props)
   return (
     <Card className='service-card'>
       <CardActionArea>
@@ -32,11 +48,22 @@ const ServiceCard = (props) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={() => props.sInfo(serviceInfo)} component={Link} to='/lilachairstudio/Services/Service'>
           Learn More
         </Button>
       </CardActions>
     </Card>
   );
 }
-export default ServiceCard;
+const mapStateToProps = (state) =>{
+  return{
+    Info: state
+  }
+}
+const mapDispatchToProps = (dispatch) => {
+  return{
+    // function
+    sInfo: (info) => dispatch(actions.addSevice(info))
+  }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(ServiceCard);

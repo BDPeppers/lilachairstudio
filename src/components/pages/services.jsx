@@ -60,8 +60,6 @@ const Services = () => {
 
                 <ServiceCard imgProp={Treatment} serviceProp="Keratin Express" timeProp='1 hr 30 min' priceProp='$150'/>
                 <ServiceCard imgProp={Treatment} serviceProp="Keratin Full" timeProp='3 hr' priceProp='$300'/>
-                
-                
             </div>
             
         </section>
