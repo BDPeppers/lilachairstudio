@@ -2,6 +2,8 @@
 // import {combineReducers} from 'react-redux'
 //file separation later when/if more functionality is added
 
+
+
 const services = {
     info: {}
 }
@@ -14,5 +16,7 @@ const serviceReducer = (state = services, action) => {
             return state;
     }
 }
+
+
 
 export default serviceReducer;
