@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff048b9e0c876faa3bc800d5d995fcb0",
+    "revision": "bc63c4f91e34395ce58f87231e53e94b",
     "url": "/lilachairstudio/index.html"
   },
   {
-    "revision": "5d191361af677c466f30",
+    "revision": "60b139abaa1e92cfb478",
     "url": "/lilachairstudio/static/css/2.6b00acf2.chunk.css"
   },
   {
-    "revision": "ef44ffa80f9279218ba7",
-    "url": "/lilachairstudio/static/css/main.14093f7c.chunk.css"
+    "revision": "65a4f3090dc99f442901",
+    "url": "/lilachairstudio/static/css/main.36109380.chunk.css"
   },
   {
-    "revision": "5d191361af677c466f30",
-    "url": "/lilachairstudio/static/js/2.bae983ce.chunk.js"
+    "revision": "60b139abaa1e92cfb478",
+    "url": "/lilachairstudio/static/js/2.771e925a.chunk.js"
   },
   {
     "revision": "e933f8dbfdf496cb72e495663a499a00",
-    "url": "/lilachairstudio/static/js/2.bae983ce.chunk.js.LICENSE.txt"
+    "url": "/lilachairstudio/static/js/2.771e925a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef44ffa80f9279218ba7",
-    "url": "/lilachairstudio/static/js/main.23e8fb25.chunk.js"
+    "revision": "65a4f3090dc99f442901",
+    "url": "/lilachairstudio/static/js/main.44f957f6.chunk.js"
   },
   {
     "revision": "7c121d8e3195b7bbd071",
@@ -206,6 +206,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7df390b6dadbe5fc90cb7a8554f0dd44",
     "url": "/lilachairstudio/static/media/img9.7df390b6.jpeg"
+  },
+  {
+    "revision": "875569c5860d555460b2869f90e195f3",
+    "url": "/lilachairstudio/static/media/lilac.875569c5.PNG"
   },
   {
     "revision": "13f16f9b5845bb07b0be62efc61db3a5",
