@@ -18,6 +18,7 @@ div.page-card
     border: 0
     &:nth-child(-n + 2)
        @include bottom-border(gray) 
+    
     @media screen and ( min-width: 700px )
         flex-basis: 49%
     h1.card-header
@@ -51,4 +52,9 @@ div.page-card
             font-size: 3rem !important
 div.right-border
     @include right-border(gray)
+
+div.top-border
+    border-top: gray .1rem solid
+    @media screen and ( min-width: 700px )
+        border: 0
     

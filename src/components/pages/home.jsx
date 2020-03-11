@@ -51,7 +51,7 @@ const Home = () => {
                         <KeyboardArrowRightIcon className='card-arrow'/>
                     </Link>
                 </div>
-                <div className="page-card">
+                <div className="page-card top-border">
                     <h1 className="card-header">Book</h1>
                     <h3 className="card-desc">Lorem Ipsum has been the industry's standard for dummy text</h3>
                     <Link to='/lilachairstudio/Book'>
