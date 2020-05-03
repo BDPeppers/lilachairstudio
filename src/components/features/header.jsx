@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import flower from '../../imgs/flower.PNG'
+import home from '../../imgs/lilacHome.png'
 import Nav from './nav'
 
 
@@ -10,7 +11,7 @@ const Header  = () => {
          <nav>  
             <div className='nav-flower'>
                 <Link to='/lilachairstudio/Home'>
-                    <img src={flower} alt="flower"/>
+                    <img src={home} alt="flower"/>
                 </Link>
             </div>
             <div className='desktop-links'>

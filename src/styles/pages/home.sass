@@ -3,12 +3,10 @@
 div.page-card-wrap
     @include flexCenter()
     width: 100vw
-    @include top-border(gray)
+    @include top-border($line-gray)
     
 div.page-cards
     @include wrap(row)
-
-
 div.page-card
     @include flex(center, column)
     flex-basis: 100%
@@ -51,10 +49,10 @@ div.page-card
         @media screen and ( min-width: 700px )
             font-size: 3rem !important
 div.right-border
-    @include right-border(gray)
+    @include right-border($line-gray)
 
 div.top-border
-    border-top: gray .1rem solid
+    border-top: $line-gray .1rem solid
     @media screen and ( min-width: 700px )
         border: 0
     

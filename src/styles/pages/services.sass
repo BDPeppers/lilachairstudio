@@ -16,16 +16,112 @@ div.underline-header
     width: 45%
     margin-left: 1rem
     position: relative
-    @include bottom-border(darkgray)
+    @include bottom-border($line-gray)
     margin-bottom: 2rem
-    box-shadow: 0px 1px 0px 0px gray
+    box-shadow: 0px 1px 0px 0px $line-gray
     @media screen and ( min-width: 700px )
         width: 35%
         margin-left: 10vw
     h1.header
         font-size: 3rem
-   
 
+h2.service-header
+    font-size: 2rem
+    margin-left: 1rem
+
+div.service-box
+    margin: auto
+    width: 100vw
+    max-width: 1024px
+    background-repeat: no-repeat
+    min-height: 25rem
+    div.service
+        margin-left: 1rem
+        padding: .5rem
+    h2.service-name
+        font-size: 2rem
+        text-shadow: .1rem 0 $line-gray
+        @media screen and ( min-width: 700px )
+    p
+        font-size: 1.5rem
+        width: 75%
+    div.price-time
+        display: flex
+        width: 55% 
+        p
+            text-shadow: .05rem 0 gray
+div.section-divider
+    background-color: $line-gray
+    width: 100vw
+    height: .1rem
+    max-width: 1024px
+    margin: auto   
+    @media screen and ( min-width: 700px )
+        width: 75vw
+
+div.service-divider
+    background-color: $line-gray
+    width: 55%
+    height: .1rem            
+
+div.sbox1
+    background-image: url('../../imgs/services/Detailing.jpg')
+    background-size: 21rem
+    background-position: right bottom
+    min-height: 25rem
+    p.service-desc
+        width: 50%
+    @media screen and ( min-width: 500px  )
+        background-size: 22rem 20rem
+    @media screen and ( min-width: 700px )
+        background-size: 40rem
+
+div.sbox2
+    div.price-time
+        width: 75%
+        @media screen and ( min-width: 700px )
+            width: 55%
+
+div.sbox3
+    background-image: url('../../imgs/services/blowout.jpg')
+    background-size: 25rem
+    background-position: right bottom
+    min-height: 25rem
+    @media screen and ( min-width: 550px  )
+        background-size: 30rem
+    @media screen and ( min-width: 700px )
+        background-size: 40rem
+        div.price-time
+            width: 55%
+        
+
+div.sbox4, div.sbox5
+    div.price-time
+        width: 85%
+        @media screen and ( min-width: 700px )
+            width: 55%
+div.sbox4
+    min-height: 30rem
+
+div.sbox5
+    background-image: url('../../imgs/services/root.jpg')
+    background-size: 25rem
+    background-position: right bottom
+    @media screen and ( min-width: 550px  )
+        background-size: 30rem
+    @media screen and ( min-width: 700px )
+        background-size: 40rem
+
+div.service-btn-box
+    display: flex
+    justify-content: center
+    widows: 100vw
+    padding: 1rem
+    a.service-btn
+        position: unset
+        bottom: unset
+        margin: auto
+        
 
 img.card-img
     padding-top: 1vh
@@ -76,7 +172,6 @@ div.service-img-box
     justify-content: center
     height: 40vh !important
 div.service-box
-    padding-bottom: 10rem !important
     p.content
         width: 85%
         padding: 1rem 0

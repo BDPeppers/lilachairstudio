@@ -4,7 +4,7 @@ import React from 'react';
 import Header from '../features/header';
 import Footer from '../features/footer';
 import Carousel from '../features/carousel'
-
+import GalleryScroll from '../features/galleryScroll'
 
 
 
@@ -17,7 +17,8 @@ const Gallery = () => {
             <div className="content-box ">
                 <h1 className="content content-header service-header">Lorem ipsum is placeholder text</h1>
             </div>
-            <Carousel />
+            {/* <Carousel /> */}
+            <GalleryScroll/>
         </section>
         <Footer/>
         </>

@@ -6,6 +6,7 @@ import Header from '../features/header';
 import Footer from '../features/footer';
 import Button from '@material-ui/core/Button';
 // design assets
+import home from '../../imgs/lilacHome.png'
 import logo from '../../imgs/logo.jpg'
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
@@ -19,7 +20,7 @@ const Home = () => {
                 <img className="lazyload" src={logo} alt="LOGO" />
             </div>
             <Button className='book-btn-full' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/'>
-                Book an Appointment
+                Book Now
             </Button>
         </div>
 

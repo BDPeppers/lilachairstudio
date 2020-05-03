@@ -1,11 +1,12 @@
 @import './../mfv'    
 
 header
-    
     min-height: fit-content
     height: 10vh
     max-height: 10vh
     border-bottom: solid .1rem $line-gray
+    background-color: $flower
+
 nav
     width: 100%
     height: 100%
@@ -16,40 +17,48 @@ nav, div.desktop-links, div.mobile-links
     @include flex(space-between, row)
     align-items: center
 
-
 div.nav-flower
     overflow: hidden
     :hover
-        transform: scale(1.1)
+        transform: scale(1.02)
     img
        height: 5rem
-       width: 5rem
+       width: 12rem
        @media screen and ( min-width: 700px )
            height: 6rem
-           width: 6rem
-           
+           width: 15rem    
 
 div.mobile-links
     @media screen and ( min-width: 900px )
         display: none
     .MuiSvgIcon-root
         font-size: 4rem
-        color: gray
+        color: white
 div.desktop-links
     display: none
-    
+    height: 100%
     @media screen and ( min-width: 900px )
         display: flex
+        justify-content: space-around
+        width: 50%
         
 div.desktop-link
     font-size: 4rem
-    padding-right: 5rem
-    
-    &:last-child
-        padding-right: 0
+    overflow: hidden
+    height: 100%
+    flex-basis: 25%
+    @include flexCenter()
     a
-        text-shadow: 0.4px 0.4px darken($gray, 15%)
-        
+        height: 100%
+        width: 100%
+        color: white
+        font-weight: 100
+        @include flexCenter()
+    a:hover
+        // color: $flower
+        // background-color: white
+        opacity: .85
+
 
 
 

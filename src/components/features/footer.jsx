@@ -13,6 +13,18 @@ const Footer  = () => {
     return (
     <footer>
         <div className="foot-wrap">
+
+        <div className='foot-sect foot-social-sect'>
+                <a href="https://www.facebook.com/LilacHairStudioATL/">
+                <FontAwesomeIcon className="foot-social facebook" icon={faFacebookSquare} />
+                </a>
+                <a className="insta-link" href="https://www.instagram.com/lilachairstudiosatl/">
+                    <FontAwesomeIcon className="foot-social insta" icon={faInstagram} />
+                </a>
+                <a href="https://www.yelp.com/biz/lilac-hair-studio-atl-atlanta">
+                    <FontAwesomeIcon className="foot-social yelp" icon={faYelp} />
+                </a>
+            </div>
             <div className='foot-sect'>
                 <RoomIcon className='foot-icon' />
                 <div className="foot-text">
@@ -83,19 +95,8 @@ const Footer  = () => {
                     <h2 className='foot-detail'>Phone:</h2>
                     <h2 className='foot-detail'>404-553-6423</h2>
                 </div>
-                
             </div>
-            <div className='foot-sect foot-social-sect'>
-                <a href="https://www.facebook.com/LilacHairStudioATL/">
-                <FontAwesomeIcon className="foot-social" icon={faFacebookSquare} />
-                </a>
-                <a href="https://www.instagram.com/lilachairstudiosatl/">
-                <FontAwesomeIcon className="foot-social" icon={faInstagram} />
-                </a>
-                <a href="https://www.yelp.com/biz/lilac-hair-studio-atl-atlanta">
-                    <FontAwesomeIcon className="foot-social" icon={faYelp} />
-                </a>
-            </div>
+            
         </div>
         
     </footer>
