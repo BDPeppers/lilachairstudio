@@ -19,24 +19,25 @@ const Home = () => {
             <div className='landing-img-box'>
                 <img className="lazyload" src={logo} alt="LOGO" />
             </div>
-            <Button className='book-btn-full' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/'>
+            <Button className='book-btn-full' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/services'>
                 Book Now
             </Button>
         </div>
 
         <div className="page-card-wrap">
+            
             <div className="page-cards">
+                {/* <Link to='/lilachairstudio/Services'></Link> */}
                 <div className="page-card right-border">
                     <h1 className="card-header">Services</h1>
                     <h3 className="card-desc">Catering cuts, colors, and chemical treatments for all ages and textures.</h3>
                     <Link to='/lilachairstudio/Services'>
                         <KeyboardArrowRightIcon className='card-arrow'/>
                     </Link>
-
                 </div>
                 <div className="page-card">
                     <h1 className="card-header">About</h1>
-                    <h3 className="card-desc">Lorem Ipsum has been the industry's standard for dummy text</h3>
+                    <h3 className="card-desc">Where Tranquility Meets Passion...meet the owner</h3>
                     <Link to='/lilachairstudio/About'>
                         <KeyboardArrowRightIcon className='card-arrow'/>
                     </Link>
@@ -44,17 +45,15 @@ const Home = () => {
                 <div className="page-card right-border">
                     <h1 className="card-header">Gallery</h1>
                     <h3 className="card-desc">
-                        Lorem Ipsum has been the industry's standard for dummy text.
-                        Adding extra text here to test what large amounts of text would
-                        look like on a variety screens of different sizes. 
+                        Find inspiration for you new look... 
                     </h3>
                     <Link to='/lilachairstudio/Gallery'>
                         <KeyboardArrowRightIcon className='card-arrow'/>
                     </Link>
                 </div>
                 <div className="page-card top-border">
-                    <h1 className="card-header">Book</h1>
-                    <h3 className="card-desc">Lorem Ipsum has been the industry's standard for dummy text</h3>
+                    <h1 className="card-header">Connect</h1>
+                    <h3 className="card-desc">Find about more about the studio...products...location..social media</h3>
                     <Link to='/lilachairstudio/Book'>
                         <KeyboardArrowRightIcon className='card-arrow'/>
                     </Link>

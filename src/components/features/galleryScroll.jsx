@@ -25,7 +25,6 @@ import img6_2 from '../../imgs/gallery/img6-2.jpeg'
 
 import img7_1 from '../../imgs/gallery/img7-1.jpeg'
 import img7_2 from '../../imgs/gallery/img7-2.jpeg'
-import img7_3 from '../../imgs/gallery/img7-3.jpeg'
 
 import img8_1 from '../../imgs/gallery/img8-1.jpeg'
 
@@ -35,9 +34,11 @@ import img9_3 from '../../imgs/gallery/img9-3.jpeg'
 import img9_4 from '../../imgs/gallery/img9-4.jpeg'
 
 import img10_1 from '../../imgs/gallery/img10-1.jpeg'
+import img10_2 from '../../imgs/gallery/img10-2.jpeg'
+import img10_3 from '../../imgs/gallery/img10-3.jpeg'
 
 import img11_1 from '../../imgs/gallery/img11-1.jpeg'
-import img11_2 from '../../imgs/gallery/img11-2.jpeg'
+
 
 import img12_1 from '../../imgs/gallery/img12-1.jpeg'
 import img12_2 from '../../imgs/gallery/img12-2.jpeg'
@@ -100,283 +101,333 @@ import img29_2 from '../../imgs/gallery/img29-2.jpeg'
  const GalleryList = [
    {
      img: img1_1,
+     id: 'img1_1',
      alt: 'Highlights',
    },
   {
     img: img2_1,
+    id: 'img2_1',
     alt: 'balayage'
   },
   {
     img: img2_2,
+    id: 'img2_2',
     alt: 'balayage'
   },
   {
     img: img2_3,
+    id: 'img2_3',
     alt: 'balayage'
   },
   {
     img: img03_1,
+    id: 'img03_1',
     alt: 'balayage'
   },
   {
     img: img3_1,
+    id: 'img3_1',
     alt: 'balayage'
   },
   {
     img: img3_2,
+    id: 'img3_2',
     alt: 'balayage'
   },
   {
     img: img3_3,
+    id: 'img3_3',
     alt: 'balayage'
   },
   {
     img: img3_4,
+    id: 'img3_4',
     alt: 'balayage'
   },
   {
     img: img4_1,
+    id: 'img4_1',
     alt: 'balayage'
   },
   {
     img: img4_2,
+    id: 'img4_2',
     alt: 'balayage'
   },
 
   {
     img: img5_1,
+    id: 'img5_1',
     alt: 'balayage'
   },
   {
     img: img5_2,
+    id: 'img5_2',
     alt: 'balayage'
   },
   {
     img: img6_1,
+    id: 'img6_1',
     alt: 'balayage'
   },
   {
     img: img6_2,
+    id: 'img6_2',
     alt: 'balayage'
   },
   {
     img: img7_1,
+    id: 'img7_1',
     alt: 'balayage'
   },
   {
     img: img7_2,
-    alt: 'balayage'
-  },
-  {
-    img: img7_3,
+    id: 'img7_2',
     alt: 'balayage'
   },
   {
     img: img8_1,
+    id: 'img8_1',
     alt: 'balayage'
   },
   {
     img: img9_1,
+    id: 'img9_1',
     alt: 'balayage'
   },
   {
     img: img9_2,
+    id: 'img9_2',
     alt: 'balayage'
   },
   {
     img: img9_3,
+    id: 'img9_3',
     alt: 'balayage'
   },
   {
     img: img9_4,
+    id: 'img9_4',
     alt: 'balayage'
   },
   {
     img: img10_1,
+    id: 'img10_1',
+    alt: 'balayage'
+  },
+  {
+    img: img10_2,
+    id: 'img10_1',
+    alt: 'balayage'
+  },
+  {
+    img: img10_3,
+    id: 'img10_1',
     alt: 'balayage'
   },
   {
     img: img11_1,
-    alt: 'balayage'
-  },
-  {
-    img: img11_2,
+    id: 'img11_1',
     alt: 'balayage'
   },
   {
     img: img12_1,
+    id: 'img12_1',
     alt: 'balayage'
   },
   {
     img: img12_2,
+    id: 'img12_2',
     alt: 'balayage'
   },
   {
     img: img13_1,
+    id: 'img13_1',
     alt: 'balayage'
   },
   {
     img: img14_1,
+    id: 'img14_1',
     alt: 'balayage'
   },
   {
     img: img15_1,
+    id: 'img15_1',
     alt: 'balayage'
   },
   {
     img: img15_2,
+    id: 'img15_2',
     alt: 'balayage'
   },
   {
     img: img16_1,
+    id: 'img16_1',
     alt: 'balayage'
   },
   {
     img: img16_2,
+    id: 'img16_2',
     alt: 'balayage'
   },
   {
     img: img16_3,
+    id: 'img16_3',
     alt: 'balayage'
   },
   {
     img: img17_1,
+    id: 'img17_1',
     alt: 'balayage'
   },
   {
     img: img17_2,
+    id: 'img17_2',
     alt: 'balayage'
   },
   {
     img: img17_3,
+    id: 'img17_3',
     alt: 'balayage'
   },
   {
     img: img18_1,
+    id: 'img18_1',
     alt: 'balayage'
   },
   {
     img: img18_2,
+    id: 'img18_2',
     alt: 'balayage'
   },
   {
     img: img19_1,
+    id: 'img18_1',
     alt: 'balayage'
   },
   {
     img: img19_2,
+    id: 'img19_2',
     alt: 'balayage'
   },
   {
     img: img20_1,
+    id: 'img20_1',
     alt: 'balayage'
   },
   {
     img: img21_1,
+    id: 'img21_1',
     alt: 'balayage'
   },
   {
     img: img21_2,
+    id: 'img22_2',
     alt: 'balayage'
   },
   {
     img: img22_1,
+    id: 'img22_1',
     alt: 'balayage'
   },
   {
     img: img22_2,
+    id: 'img22_2',
     alt: 'balayage'
   },
   {
     img: img23_1,
+    id: 'img23_1',
     alt: 'balayage'
   },
   {
     img: img24_1,
+    id: 'img24_1',
     alt: 'balayage'
   },
   {
     img: img24_2,
+    id: 'img24_2',
     alt: 'balayage'
   },
   {
     img: img24_3,
+    id: 'img24_3',
     alt: 'balayage'
   },
   {
     img: img24_4,
+    id: 'img24_4',
     alt: 'balayage'
   },
   {
     img: img25_1,
+    id: 'img25_1',
     alt: 'balayage'
   },
   {
     img: img25_2,
+    id: 'img25_2',
     alt: 'balayage'
   },
   {
     img: img25_3,
+    id: 'img25_3',
     alt: 'balayage'
   },
   {
     img: img25_4,
-    alt: 'balayage'
-  },
-  {
-    img: img25_1,
-    alt: 'balayage'
-  },
-  {
-    img: img25_2,
-    alt: 'balayage'
-  },
-  {
-    img: img25_3,
-    alt: 'balayage'
-  },
-  {
-    img: img25_4,
+    id: 'img25_4',
     alt: 'balayage'
   },
   {
     img: img26_1,
+    id: 'img26_1',
     alt: 'balayage'
   },
   {
     img: img26_2,
+    id: 'img26_2',
     alt: 'balayage'
   },
   {
     img: img26_3,
+    id: 'img26_3',
     alt: 'balayage'
   },
   {
     img: img27_1,
+    id: 'img27_1',
     alt: 'balayage'
   },
   {
     img: img28_1,
+    id: 'img28_1',
     alt: 'balayage'
   },
   {
     img: img28_2,
+    id: 'img28_2',
     alt: 'balayage'
   },
   {
     img: img28_3,
+    id: 'img28_3',
     alt: 'balayage'
   },
   {
     img: img28_4,
+    id: 'img28_4',
     alt: 'balayage'
   },
   {
     img: img29_1,
+    id: 'img29_1',
     alt: 'balayage'
   },
   {
     img: img29_2,
+    id: 'img29_2',
     alt: 'balayage'
   }
 ];
@@ -386,7 +437,7 @@ export default function GalleryScroll(){
     <div className="gallery">
       <ul className="gallery-list">
         {GalleryList.map((pic) => (
-          <li className="gallery-pic">
+          <li className={`gallery-pic ${pic.id}`}>
             <img src={pic.img} alt={pic.alt}/>
           </li>
         ))}

@@ -41,7 +41,7 @@ export default function Nav() {
       onKeyDown={toggleDrawer(side, false)}
     >
       <List>
-        {['Home', 'About', 'Services', 'Gallery', 'Book'].map((text, index) => (
+        {['Home', 'About', 'Services', 'Gallery', 'Connect'].map((text, index) => (
          <>
          <ListItem button key={text} component={Link} to={'/lilachairstudio/'+text}>
             <ListItemText primary={text} />

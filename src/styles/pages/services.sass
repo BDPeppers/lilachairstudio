@@ -37,7 +37,7 @@ div.service-box
     min-height: 25rem
     div.service
         margin-left: 1rem
-        padding: .5rem
+        padding: 1rem 0
     h2.service-name
         font-size: 2rem
         text-shadow: .1rem 0 $line-gray
@@ -50,14 +50,13 @@ div.service-box
         width: 55% 
         p
             text-shadow: .05rem 0 gray
+
 div.section-divider
     background-color: $line-gray
     width: 100vw
     height: .1rem
     max-width: 1024px
-    margin: auto   
-    @media screen and ( min-width: 700px )
-        width: 75vw
+    margin: auto
 
 div.service-divider
     background-color: $line-gray
@@ -86,10 +85,13 @@ div.sbox3
     background-image: url('../../imgs/services/blowout.jpg')
     background-size: 25rem
     background-position: right bottom
+    padding-bottom: 10rem
     min-height: 25rem
     @media screen and ( min-width: 550px  )
         background-size: 30rem
+        padding-bottom: 5
     @media screen and ( min-width: 700px )
+        padding-bottom: 2
         background-size: 40rem
         div.price-time
             width: 55%
@@ -107,9 +109,12 @@ div.sbox5
     background-image: url('../../imgs/services/root.jpg')
     background-size: 25rem
     background-position: right bottom
+    padding-bottom: 10rem
     @media screen and ( min-width: 550px  )
         background-size: 30rem
+        padding-bottom: 5
     @media screen and ( min-width: 700px )
+        padding-bottom: 2
         background-size: 40rem
 
 div.service-btn-box

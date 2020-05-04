@@ -2,20 +2,20 @@ import React from 'react'
 //imported components
 import Header from '../features/header';
 import Footer from '../features/footer';
-import ServiceCard from '../features/serviceCard';
+// import ServiceCard from '../features/serviceCard';
 import Button from '@material-ui/core/Button';
 
-//design assets
-import Consultaion from '../../imgs/services/consultation.jpg'
-import Blowout from '../../imgs/services/blowout.jpg'
-import Detailing from '../../imgs/services/Detailing.jpg'
-import Haircut from '../../imgs/services/haircut.jpg'
-import fullHighlight from '../../imgs/services/fullHighlight.jpg'
-import Partial from '../../imgs/services/Partial.jpg'
-import Treatment from '../../imgs/services/Treatment.jpg'
-import Root from '../../imgs/services/root.jpg'
-import Balayage from '../../imgs/services/balayage.jpg'
-import Care from '../../imgs/services/care.jpg'
+// //design assets
+// import Consultaion from '../../imgs/services/consultation.jpg'
+// import Blowout from '../../imgs/services/blowout.jpg'
+// import Detailing from '../../imgs/services/Detailing.jpg'
+// import Haircut from '../../imgs/services/haircut.jpg'
+// import fullHighlight from '../../imgs/services/fullHighlight.jpg'
+// import Partial from '../../imgs/services/Partial.jpg'
+// import Treatment from '../../imgs/services/Treatment.jpg'
+// import Root from '../../imgs/services/root.jpg'
+// import Balayage from '../../imgs/services/balayage.jpg'
+// import Care from '../../imgs/services/care.jpg'
 
 const Services = () => {
     return (
@@ -23,18 +23,18 @@ const Services = () => {
         <Header/>
         <section>
             <div className="content-box content-header-box">
-                <h2 className='content'>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod."
+                <h2 className='content service-content'>
+                    Lilac Hair Studio guarantees professional skill, Atlanta's best hair salon customer service, 
+                    the highest quality products, and a welcoming environment for EVERYONE. Meeting all your of 
+                    your hair care needs, our services include hair coloring, cuts, blowouts, chemical services 
+                    such as keratin smoothing treatments, and conditioning treatments. We welcome hair services for
+                    women, men, and children of all textures.
                 </h2>
             </div>
-            {/* <div className='underline-header'>
-                <h1 className='header'>Services</h1>
-            </div> */}
 
+            <br/>
             <div className="section-divider"></div>
+            <br/>
 
             <div className="service-box sbox1">
 
@@ -57,6 +57,7 @@ const Services = () => {
 
                 <div className="service">
                     <h2 className="service-name">Detailing</h2>
+                    <p className="desc">This is a complimentary clean up for men or women.</p>
                     <div className="price-time">
                         <p className="service-time">Time: 15 min</p>
                         <p className="service-price">Price: Varies</p>
@@ -66,14 +67,16 @@ const Services = () => {
 
             </div>
 
+            <br/>
             <div className="section-divider"></div>
+            <br/>
 
             <div className="service-box sbox2">
                 <div className="service">
                     <h2 className="service-name">Women's Haircut</h2>
                     <div className="price-time">
                         <p className="service-time">Time: 45 min</p>
-                        <p className="service-price">Price: $65</p>
+                        <p className="service-price">Price: $70</p>
                     </div>
                 </div>
 
@@ -85,7 +88,19 @@ const Services = () => {
                     <h2 className="service-name">Men's Haircut</h2>
                     <div className="price-time">
                         <p className="service-time">Time: 45 min</p>
-                        <p className="service-price">Price: $55</p>
+                        <p className="service-price">Price: $60</p>
+                    </div>
+                </div>
+
+                <br/>
+                <div className="service-divider"></div>
+                <br/>
+
+                <div className="service">
+                    <h2 className="service-name">Child's Haircut</h2>
+                    <div className="price-time">
+                        <p className="service-time">Time: 30 min</p>
+                        <p className="service-price">Price: $35</p>
                     </div>
                 </div>
 
@@ -95,6 +110,7 @@ const Services = () => {
 
                 <div className="service">
                     <h2 className="service-name">5 for $25</h2>
+                    <p className="service-desc">5-8 highligts for an add on service only.</p>
                     <div className="price-time">
                         <p className="service-time">Time: 15 min</p>
                         <p className="service-price">Price: $25</p>
@@ -103,18 +119,23 @@ const Services = () => {
 
             </div>
 
+            <br/>
             <div className="section-divider"></div>
+            <br/>
 
             <div className="service-box sbox3">
 
                 <div className="service">
                     <h2 className="service-name">Full Highlight</h2>
-                    <p className="service-desc">Something</p>
+                    <p className="service-desc">
+                        Full head of highlights with a haircut. A gloss is an 
+                        additional service with an additional fee.
+                    </p>
                     <div className="price-time">
                         <p className="service-time">Time: 2hr 30min</p>
-                        <p className="service-price">Price: $155</p>
+                        <p className="service-price">Price: $165</p>
                     </div>
-                    <p className="desc">Additional $65 for haircut ($225)</p>
+                    <p className="desc">Additional haircut price: ($220)</p>
                 </div>
 
                 <br/>
@@ -123,16 +144,18 @@ const Services = () => {
 
                 <div className="service">
                     <h2 className="service-name">Partial Highlight</h2>
-                    <p className="service-desc">Complimentary clean up</p>
+                    <p className="service-desc">Partial highlight only... gloss charged seperately.</p>
                     <div className="price-time">
                         <p className="service-time">Time: 2hr 30min</p>
-                        <p className="service-price">Price: $125</p>
+                        <p className="service-price">Price: $130</p>
                     </div>
-                    <p className="desc">Additional $65 for haircut ($190)</p>
+                    <p className="desc">Additional haircut price: ($215)</p>
                 </div>
             </div>
 
+            <br/>
             <div className="section-divider"></div>
+            <br/>
 
             <div className="service-box sbox4">
 
@@ -162,8 +185,12 @@ const Services = () => {
 
                 <div className="service">
                     <h2 className="service-name">Conditioning Gloss</h2>
+                    <p className="service-desc">
+                        This is a conditioning toner gloss. 
+                        It adds color and immense shine to your already beautiful hair.
+                    </p>
                     <div className="price-time">
-                        <p className="service-time">Time: 45 min</p>
+                        <p className="service-time">Time: 30 min</p>
                         <p className="service-price">Price: $35</p>
                     </div>
                 </div>
@@ -174,9 +201,10 @@ const Services = () => {
 
                 <div className="service">
                     <h2 className="service-name">Single Color Root Touch Up</h2>
+                    <p className="service-desc">This is a root touch up only.</p>
                     <div className="price-time">
-                        <p className="service-time">Time: 2 hr 15 min</p>
-                        <p className="service-price">Price: $85</p>
+                        <p className="service-time">Time: 2 hr</p>
+                        <p className="service-price">Price: Varies</p>
                     </div>
                 
                 </div>               
@@ -188,11 +216,14 @@ const Services = () => {
             <div className="service-box sbox5">
             <div className="service">
                     <h2 className="service-name">Full Balayage</h2>
+                    <p className="service-desc">
+                        French freehand hair coloring technique for natural looking colour.
+                    </p>
                     <div className="price-time">
                         <p className="service-time">Time: 2 hr 15 min</p>
-                        <p className="service-price">Price: $175</p>
+                        <p className="service-price">Starting Price: $180</p>
                     </div>
-                    <p className="desc">Additional $65 for haircut ($240)</p>
+                    <p className="desc">Additional haircut price: ($240)</p>
                 </div>
 
                 <br/>
@@ -201,6 +232,9 @@ const Services = () => {
 
                 <div className="service">
                     <h2 className="service-name">Keratin Express</h2>
+                    <p className="service-desc">
+                        This is the keratin express blowout.
+                    </p>
                     <div className="price-time">
                         <p className="service-time">Time: 1 hr 30 min</p>
                         <p className="service-price">Price: $150</p>
@@ -213,6 +247,9 @@ const Services = () => {
 
                 <div className="service">
                     <h2 className="service-name">Keratin Full</h2>
+                    <p className="service-desc">
+                        This is the full strength keratin.
+                    </p>
                     <div className="price-time">
                         <p className="service-time">Time: 3 hr</p>
                         <p className="service-price">Price: $300</p>
@@ -221,7 +258,7 @@ const Services = () => {
             </div>
 
             <div className="service-btn-box">
-                <Button className='service-btn' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/'>
+                <Button className='service-btn' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/services'>
                     Book Now
                 </Button>
             </div>

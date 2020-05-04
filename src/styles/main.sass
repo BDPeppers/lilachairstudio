@@ -59,9 +59,9 @@ div.landing-page
     @media screen and ( min-height: 600px  )
         background-size: 40rem 25rem
     @media screen and ( min-width: 450px )
-        background-size: 40rem 30rem
+        background-size: 40rem 25rem
     @media screen and ( min-width: 700px )
-        background-size: 60rem 30rem
+        background-size: 50rem 25rem
 
 div.landing-img-box
     height: 50vh
@@ -70,7 +70,7 @@ div.landing-img-box
     img
         height: 40%
         width: unset
-        max-width: 575px
+        max-width: 500px
         @media screen and ( min-width: 700px )
             height: 50%
             width: 65%
@@ -126,8 +126,7 @@ div.content-box
     h1.content, h1.content-header
         font-size: 2rem
         text-align: left
-        color: gray
-        text-shadow: 1px 0px 1px rgba(0,0,0,0.6)
+        text-shadow: .1rem 0 $line-gray
         @media screen and ( min-width: 425px )
             font-size: 2.5rem
         @media screen and ( min-width: 700px )
@@ -141,12 +140,17 @@ div.content-box
             font-size: 2rem
         @media screen and ( min-width: 700px )
             font-size: 2.5rem
+    h2.service-content
+        @media screen and ( min-width: 700px )
+            font-size: 2rem
+            // width: 75%
+            text-align: left
     h3.content
         font-size: 1.5rem
-    p.content
+    p.content, a.content-link
         font-size: 1.5rem
         padding: .5rem 0
-        color: $text-gray
+     
         @media screen and ( min-width: 425px )
             font-size: 1.7rem
         @media screen and ( min-width: 700px )
@@ -160,7 +164,7 @@ div.content-box
         @media screen and ( min-width: 700px )
             font-size: 2rem
     p.caption
-        width: 75%
+        width: 55%
         margin: auto
         padding: 2rem 0
     img.content-img

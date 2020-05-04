@@ -1,15 +1,23 @@
 div.landing-page
     div.bookPage-img-box 
-        height: 25vh
-        padding-top: 7rem
-        width: 100%
-        display: flex
-        img
-            height: 100%
-            width: 80%
-            max-width: 55rem
-
+        height: 35vh
+div.book-page
+    justify-content: unset !important
+    height: unset !important
+    background-image: none !important
 div.book-box
     align-items: center
     h2.content
-        width: 75%
+        width: 45%
+    h2.detail
+        font-size: 1.5rem !important
+        @media screen and ( min-width: 425px )
+            font-size: 1.7rem !important
+        @media screen and ( min-width: 700px )
+            font-size: 2rem !important
+    h2.book-header
+        padding-bottom: 2rem !important
+
+div.book-social
+    max-width: 50rem
+    outline: 0

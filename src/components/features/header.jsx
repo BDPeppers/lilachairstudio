@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import flower from '../../imgs/flower.PNG'
+// import flower from '../../imgs/flower.PNG'
 import home from '../../imgs/lilacHome.png'
 import Nav from './nav'
 
@@ -25,7 +25,7 @@ const Header  = () => {
                     <Link to='/lilachairstudio/Gallery'>Gallery</Link>
                 </div>
                 <div className='desktop-link'>
-                    <Link to='/lilachairstudio/Book'>Book</Link>
+                    <Link to='/lilachairstudio/Book'>Connect</Link>
                 </div>
             </div>
             <div className='mobile-links'>
