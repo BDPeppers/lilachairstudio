@@ -220,26 +220,12 @@ const Services = () => {
                 </div>
             </div>
 
-
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-
             <div className="service-btn-box">
                 <Button className='service-btn' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/'>
                     Book Now
                 </Button>
             </div>
             
-
-
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
 
             {/* <div className="service-cards">
                 <ServiceCard imgProp={Consultaion} serviceProp="Consultation" timeProp='15 min' priceProp='Free'/>

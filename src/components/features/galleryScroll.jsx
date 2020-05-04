@@ -1,224 +1,393 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
 
 //design assets
-import img1 from '../../imgs/gallery/carousel/img1.JPEG'
-import img2 from '../../imgs/gallery/carousel/img2.JPEG'
-import img3 from '../../imgs/gallery/carousel/img3.jpeg'
-import img4 from '../../imgs/gallery/carousel/img4.jpeg'
-import img5 from '../../imgs/gallery/carousel/img5.jpeg'
-import img6 from '../../imgs/gallery/carousel/img6.jpeg'
-import img7 from '../../imgs/gallery/carousel/img7.jpeg'
-import img8 from '../../imgs/gallery/carousel/img8.jpeg'
-import img9 from '../../imgs/gallery/carousel/img9.jpeg'
-import img10 from '../../imgs/gallery/carousel/img10.jpeg'
-import img11 from '../../imgs/gallery/carousel/img11.jpeg'
-import img12 from '../../imgs/gallery/carousel/img12.jpeg'
-import img13 from '../../imgs/gallery/carousel/img13.jpeg'
-import img14 from '../../imgs/gallery/carousel/img14.jpeg'
-import img15 from '../../imgs/gallery/carousel/img15.jpeg'
-import img16 from '../../imgs/gallery/carousel/img16.jpeg'
-import img17 from '../../imgs/gallery/carousel/img17.jpeg'
-import img18 from '../../imgs/gallery/carousel/img18.jpeg'
-import img19 from '../../imgs/gallery/carousel/img19.jpeg'
-import img20 from '../../imgs/gallery/carousel/img20.jpeg'
-import img21 from '../../imgs/gallery/carousel/img21.jpeg'
-import img22 from '../../imgs/gallery/carousel/img22.jpeg'
-import img23 from '../../imgs/gallery/carousel/img23.jpeg'
-import img24 from '../../imgs/gallery/carousel/img24.jpeg'
-import img25 from '../../imgs/gallery/carousel/img25.jpeg'
-import img26 from '../../imgs/gallery/carousel/img26.jpeg'
-import img27 from '../../imgs/gallery/carousel/img27.jpeg'
-import img28 from '../../imgs/gallery/carousel/img28.jpeg'
-import img29 from '../../imgs/gallery/carousel/img29.jpeg'
-import img30 from '../../imgs/gallery/carousel/img30.jpeg'
-import img31 from '../../imgs/gallery/carousel/img31.jpeg'
-import img32 from '../../imgs/gallery/carousel/img32.jpeg'
-import img33 from '../../imgs/gallery/carousel/img33.jpeg'
-import img34 from '../../imgs/gallery/carousel/img34.jpeg'
+import img1_1 from '../../imgs/gallery/img1-1.jpeg'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 500,
-    height: 450,
-  },
-}));
+import img2_1 from '../../imgs/gallery/img2-1.jpeg'
+import img2_2 from '../../imgs/gallery/img2-2.jpeg'
+import img2_3 from '../../imgs/gallery/img2-3.jpeg'
 
- const tileData = [
+import img03_1 from '../../imgs/gallery/img03-1.jpeg'
+
+import img3_1 from '../../imgs/gallery/img3-1.jpeg'
+import img3_2 from '../../imgs/gallery/img3-2.jpeg'
+import img3_3 from '../../imgs/gallery/img3-3.jpeg'
+import img3_4 from '../../imgs/gallery/img3-4.jpeg'
+
+import img4_1 from '../../imgs/gallery/img4-1.jpeg'
+import img4_2 from '../../imgs/gallery/img4-2.jpeg'
+
+import img5_1 from '../../imgs/gallery/img5-1.jpeg'
+import img5_2 from '../../imgs/gallery/img5-2.jpeg'
+
+import img6_1 from '../../imgs/gallery/img6-1.jpeg'
+import img6_2 from '../../imgs/gallery/img6-2.jpeg'
+
+import img7_1 from '../../imgs/gallery/img7-1.jpeg'
+import img7_2 from '../../imgs/gallery/img7-2.jpeg'
+import img7_3 from '../../imgs/gallery/img7-3.jpeg'
+
+import img8_1 from '../../imgs/gallery/img8-1.jpeg'
+
+import img9_1 from '../../imgs/gallery/img9-1.jpeg'
+import img9_2 from '../../imgs/gallery/img9-2.jpeg'
+import img9_3 from '../../imgs/gallery/img9-3.jpeg'
+import img9_4 from '../../imgs/gallery/img9-4.jpeg'
+
+import img10_1 from '../../imgs/gallery/img10-1.jpeg'
+
+import img11_1 from '../../imgs/gallery/img11-1.jpeg'
+import img11_2 from '../../imgs/gallery/img11-2.jpeg'
+
+import img12_1 from '../../imgs/gallery/img12-1.jpeg'
+import img12_2 from '../../imgs/gallery/img12-2.jpeg'
+
+import img13_1 from '../../imgs/gallery/img13-1.jpeg'
+
+import img14_1 from '../../imgs/gallery/img14-1.jpeg'
+
+import img15_1 from '../../imgs/gallery/img15-1.jpeg'
+import img15_2 from '../../imgs/gallery/img15-2.jpeg'
+
+import img16_1 from '../../imgs/gallery/img16-1.jpeg'
+import img16_2 from '../../imgs/gallery/img16-2.jpeg'
+import img16_3 from '../../imgs/gallery/img16-3.jpeg'
+
+import img17_1 from '../../imgs/gallery/img17-1.jpeg'
+import img17_2 from '../../imgs/gallery/img17-2.jpeg'
+import img17_3 from '../../imgs/gallery/img17-3.jpeg'
+
+import img18_1 from '../../imgs/gallery/img18-1.jpeg'
+import img18_2 from '../../imgs/gallery/img18-2.jpeg'
+
+import img19_1 from '../../imgs/gallery/img19-1.jpeg'
+import img19_2 from '../../imgs/gallery/img19-2.jpeg'
+
+import img20_1 from '../../imgs/gallery/img20-1.jpeg'
+
+import img21_1 from '../../imgs/gallery/img21-1.jpeg'
+import img21_2 from '../../imgs/gallery/img21-2.jpeg'
+
+import img22_1 from '../../imgs/gallery/img22-1.jpeg'
+import img22_2 from '../../imgs/gallery/img22-2.jpeg'
+
+import img23_1 from '../../imgs/gallery/img23-1.jpeg'
+
+import img24_1 from '../../imgs/gallery/img24-1.jpeg'
+import img24_2 from '../../imgs/gallery/img24-2.jpeg'
+import img24_3 from '../../imgs/gallery/img24-3.jpeg'
+import img24_4 from '../../imgs/gallery/img24-4.jpeg'
+
+import img25_1 from '../../imgs/gallery/img25-1.jpeg'
+import img25_2 from '../../imgs/gallery/img25-2.jpeg'
+import img25_3 from '../../imgs/gallery/img25-3.jpeg'
+import img25_4 from '../../imgs/gallery/img25-4.jpeg'
+
+import img26_1 from '../../imgs/gallery/img26-1.jpeg'
+import img26_2 from '../../imgs/gallery/img26-2.jpeg'
+import img26_3 from '../../imgs/gallery/img26-3.jpeg'
+
+import img27_1 from '../../imgs/gallery/img27-1.jpeg'
+
+import img28_1 from '../../imgs/gallery/img28-1.jpeg'
+import img28_2 from '../../imgs/gallery/img28-2.jpeg'
+import img28_3 from '../../imgs/gallery/img28-3.jpeg'
+import img28_4 from '../../imgs/gallery/img28-4.jpeg'
+
+import img29_1 from '../../imgs/gallery/img29-1.jpeg'
+import img29_2 from '../../imgs/gallery/img29-2.jpeg'
+
+ const GalleryList = [
    {
-     img: img1,
-     title: 'Image',
-     author: 'author',
-     cols: 3,
-     rows: 2
+     img: img1_1,
+     alt: 'Highlights',
    },
   {
-    img: img2,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
-    rows: 2
+    img: img2_1,
+    alt: 'balayage'
   },
   {
-    img: img22,
-    title: 'Image',
-    author: 'author',
-    cols: 1,
+    img: img2_2,
+    alt: 'balayage'
   },
   {
-    img: img4,
-    title: 'Image',
-    author: 'author',
-    cols: 1,
+    img: img2_3,
+    alt: 'balayage'
   },
   {
-    img: img5,
-    title: 'Image',
-    author: 'author',
-    cols: 1,
+    img: img03_1,
+    alt: 'balayage'
   },
   {
-    img: img6,
-    title: 'Image',
-    author: 'author',
-    cols: 1,
+    img: img3_1,
+    alt: 'balayage'
   },
   {
-    img: img7,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img3_2,
+    alt: 'balayage'
   },
   {
-    img: img8,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img3_3,
+    alt: 'balayage'
   },
   {
-    img: img9,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img3_4,
+    alt: 'balayage'
   },
   {
-    img: img10,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img4_1,
+    alt: 'balayage'
   },
   {
-     img: img11,
-     title: 'Image',
-     author: 'author',
-     cols: 2,
-   },
-   {
-    img: img12,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img4_2,
+    alt: 'balayage'
+  },
+
+  {
+    img: img5_1,
+    alt: 'balayage'
   },
   {
-    img: img13,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img5_2,
+    alt: 'balayage'
   },
   {
-    img: img14,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img6_1,
+    alt: 'balayage'
   },
   {
-    img: img15,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img6_2,
+    alt: 'balayage'
   },
   {
-    img: img16,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img7_1,
+    alt: 'balayage'
   },
   {
-    img: img18,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img7_2,
+    alt: 'balayage'
   },
   {
-    img: img19,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img7_3,
+    alt: 'balayage'
   },
   {
-    img: img20,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img8_1,
+    alt: 'balayage'
   },
   {
-    img: img21,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img9_1,
+    alt: 'balayage'
   },
   {
-    img: img22,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img9_2,
+    alt: 'balayage'
   },
   {
-    img: img23,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img9_3,
+    alt: 'balayage'
   },
   {
-    img: img24,
-    title: 'Image',
-    author: 'author',
-    cols: 2,
+    img: img9_4,
+    alt: 'balayage'
+  },
+  {
+    img: img10_1,
+    alt: 'balayage'
+  },
+  {
+    img: img11_1,
+    alt: 'balayage'
+  },
+  {
+    img: img11_2,
+    alt: 'balayage'
+  },
+  {
+    img: img12_1,
+    alt: 'balayage'
+  },
+  {
+    img: img12_2,
+    alt: 'balayage'
+  },
+  {
+    img: img13_1,
+    alt: 'balayage'
+  },
+  {
+    img: img14_1,
+    alt: 'balayage'
+  },
+  {
+    img: img15_1,
+    alt: 'balayage'
+  },
+  {
+    img: img15_2,
+    alt: 'balayage'
+  },
+  {
+    img: img16_1,
+    alt: 'balayage'
+  },
+  {
+    img: img16_2,
+    alt: 'balayage'
+  },
+  {
+    img: img16_3,
+    alt: 'balayage'
+  },
+  {
+    img: img17_1,
+    alt: 'balayage'
+  },
+  {
+    img: img17_2,
+    alt: 'balayage'
+  },
+  {
+    img: img17_3,
+    alt: 'balayage'
+  },
+  {
+    img: img18_1,
+    alt: 'balayage'
+  },
+  {
+    img: img18_2,
+    alt: 'balayage'
+  },
+  {
+    img: img19_1,
+    alt: 'balayage'
+  },
+  {
+    img: img19_2,
+    alt: 'balayage'
+  },
+  {
+    img: img20_1,
+    alt: 'balayage'
+  },
+  {
+    img: img21_1,
+    alt: 'balayage'
+  },
+  {
+    img: img21_2,
+    alt: 'balayage'
+  },
+  {
+    img: img22_1,
+    alt: 'balayage'
+  },
+  {
+    img: img22_2,
+    alt: 'balayage'
+  },
+  {
+    img: img23_1,
+    alt: 'balayage'
+  },
+  {
+    img: img24_1,
+    alt: 'balayage'
+  },
+  {
+    img: img24_2,
+    alt: 'balayage'
+  },
+  {
+    img: img24_3,
+    alt: 'balayage'
+  },
+  {
+    img: img24_4,
+    alt: 'balayage'
+  },
+  {
+    img: img25_1,
+    alt: 'balayage'
+  },
+  {
+    img: img25_2,
+    alt: 'balayage'
+  },
+  {
+    img: img25_3,
+    alt: 'balayage'
+  },
+  {
+    img: img25_4,
+    alt: 'balayage'
+  },
+  {
+    img: img25_1,
+    alt: 'balayage'
+  },
+  {
+    img: img25_2,
+    alt: 'balayage'
+  },
+  {
+    img: img25_3,
+    alt: 'balayage'
+  },
+  {
+    img: img25_4,
+    alt: 'balayage'
+  },
+  {
+    img: img26_1,
+    alt: 'balayage'
+  },
+  {
+    img: img26_2,
+    alt: 'balayage'
+  },
+  {
+    img: img26_3,
+    alt: 'balayage'
+  },
+  {
+    img: img27_1,
+    alt: 'balayage'
+  },
+  {
+    img: img28_1,
+    alt: 'balayage'
+  },
+  {
+    img: img28_2,
+    alt: 'balayage'
+  },
+  {
+    img: img28_3,
+    alt: 'balayage'
+  },
+  {
+    img: img28_4,
+    alt: 'balayage'
+  },
+  {
+    img: img29_1,
+    alt: 'balayage'
+  },
+  {
+    img: img29_2,
+    alt: 'balayage'
   }
 ];
- 
-// export default function GalleryScroll() {
-//   const classes = useStyles();
-
-//   return (
-//     <div className={`${classes.root} gallery`}>
-//       <GridList cellHeight={180} className={`${classes.gridList} grid-img`} cols={3}>
-//         {tileData.map((tile) => (
-//           <GridListTile key={tile.img} cols={tile.cols || 1} rows={tile.rows || 1}>
-//             <img src={tile.img} alt={tile.title} />
-//           </GridListTile>
-//         ))}
-//       </GridList>
-//     </div>
-//   );
-// }
 
 export default function GalleryScroll(){
   return(
     <div className="gallery">
       <ul className="gallery-list">
-        {tileData.map((tile) => (
+        {GalleryList.map((pic) => (
           <li className="gallery-pic">
-            <img src={tile.img} alt={tile.author} srcset=""/>
+            <img src={pic.img} alt={pic.alt}/>
           </li>
         ))}
       </ul>

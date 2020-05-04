@@ -6,7 +6,7 @@ import Header from '../features/header';
 import Footer from '../features/footer';
 import Button from '@material-ui/core/Button';
 // design assets
-import home from '../../imgs/lilacHome.png'
+
 import logo from '../../imgs/logo.jpg'
 import KeyboardArrowRightIcon from '@material-ui/icons/KeyboardArrowRight';
 
