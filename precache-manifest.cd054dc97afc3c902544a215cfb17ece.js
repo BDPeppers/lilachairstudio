@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a64aea9dd1e7bc084182c48f6e16551b",
+    "revision": "f466e2831724baeb67e3e5534e7f4791",
     "url": "/lilachairstudio/index.html"
   },
   {
-    "revision": "26a8e5dc96d1c928d13f",
-    "url": "/lilachairstudio/static/css/main.f9e498d5.chunk.css"
+    "revision": "8f6f126152078c3450a6",
+    "url": "/lilachairstudio/static/css/main.e496833c.chunk.css"
   },
   {
-    "revision": "19d09e0505da14f9acd6",
-    "url": "/lilachairstudio/static/js/2.8c5e2fbe.chunk.js"
+    "revision": "7f84ae498188b85189ef",
+    "url": "/lilachairstudio/static/js/2.6bf60821.chunk.js"
   },
   {
     "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/lilachairstudio/static/js/2.8c5e2fbe.chunk.js.LICENSE.txt"
+    "url": "/lilachairstudio/static/js/2.6bf60821.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "26a8e5dc96d1c928d13f",
-    "url": "/lilachairstudio/static/js/main.022c7993.chunk.js"
+    "revision": "8f6f126152078c3450a6",
+    "url": "/lilachairstudio/static/js/main.a9ba39f1.chunk.js"
   },
   {
     "revision": "7c121d8e3195b7bbd071",
@@ -32,40 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lilachairstudio/static/media/MVP.dc87bf76.PNG"
   },
   {
-    "revision": "3bd36d71fddb510423c789414c310dfb",
-    "url": "/lilachairstudio/static/media/Partial.3bd36d71.jpg"
-  },
-  {
-    "revision": "e3549340c178ae1bab4da633dcfd675c",
-    "url": "/lilachairstudio/static/media/Treatment.e3549340.jpg"
-  },
-  {
-    "revision": "528400c34c7bf8d9c884ffaf205015c4",
-    "url": "/lilachairstudio/static/media/balayage.528400c3.jpg"
-  },
-  {
     "revision": "1c39c1674f48ec16dbe9e7926dfceddc",
     "url": "/lilachairstudio/static/media/blowout.1c39c167.jpg"
   },
   {
-    "revision": "d08f4c8d197dee39d658c4f73d9f87d9",
-    "url": "/lilachairstudio/static/media/care.d08f4c8d.jpg"
-  },
-  {
     "revision": "e6460cc53e9cd8173afecde7c5e6c3da",
     "url": "/lilachairstudio/static/media/consultation.e6460cc5.jpg"
-  },
-  {
-    "revision": "767f82e07f3d9ea8ba2e4541dd15c85b",
-    "url": "/lilachairstudio/static/media/flower.767f82e0.PNG"
-  },
-  {
-    "revision": "9bc3c72db2906a334c5eb420a3bf84cc",
-    "url": "/lilachairstudio/static/media/fullHighlight.9bc3c72d.jpg"
-  },
-  {
-    "revision": "5ad81d6f8021ec74f3181f000c5593cb",
-    "url": "/lilachairstudio/static/media/haircut.5ad81d6f.jpg"
   },
   {
     "revision": "9d905c585c4d3b37dceae42d3ecce5c5",
@@ -76,16 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lilachairstudio/static/media/img1-1.9681ebaa.jpeg"
   },
   {
+    "revision": "b370c128c4822e4c0f50c1dc81b96362",
+    "url": "/lilachairstudio/static/media/img10-1.b370c128.jpeg"
+  },
+  {
+    "revision": "f6b433c7a05c2bbd9690ba06ac881509",
+    "url": "/lilachairstudio/static/media/img10-2.f6b433c7.jpeg"
+  },
+  {
+    "revision": "7df390b6dadbe5fc90cb7a8554f0dd44",
+    "url": "/lilachairstudio/static/media/img10-3.7df390b6.jpeg"
+  },
+  {
     "revision": "9796bafe9fcff1e1e5dfb93183557b5e",
-    "url": "/lilachairstudio/static/media/img10-1.9796bafe.jpeg"
-  },
-  {
-    "revision": "a74c9e08843b6e6cdd846e1bd60d1126",
-    "url": "/lilachairstudio/static/media/img11-1.a74c9e08.jpeg"
-  },
-  {
-    "revision": "4af436ee4cf1d4ea76b3d13dcce87761",
-    "url": "/lilachairstudio/static/media/img11-2.4af436ee.jpeg"
+    "url": "/lilachairstudio/static/media/img11-1.9796bafe.jpeg"
   },
   {
     "revision": "8990ef41be3aa8ff6ad8eef2eb62ee82",
@@ -300,16 +276,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lilachairstudio/static/media/img6-2.d9849f9b.jpeg"
   },
   {
-    "revision": "b370c128c4822e4c0f50c1dc81b96362",
-    "url": "/lilachairstudio/static/media/img7-1.b370c128.jpeg"
+    "revision": "a74c9e08843b6e6cdd846e1bd60d1126",
+    "url": "/lilachairstudio/static/media/img7-1.a74c9e08.jpeg"
   },
   {
-    "revision": "f6b433c7a05c2bbd9690ba06ac881509",
-    "url": "/lilachairstudio/static/media/img7-2.f6b433c7.jpeg"
-  },
-  {
-    "revision": "7df390b6dadbe5fc90cb7a8554f0dd44",
-    "url": "/lilachairstudio/static/media/img7-3.7df390b6.jpeg"
+    "revision": "4af436ee4cf1d4ea76b3d13dcce87761",
+    "url": "/lilachairstudio/static/media/img7-2.4af436ee.jpeg"
   },
   {
     "revision": "905cc1f22be1c585d633acd8c7f07e4b",
@@ -330,10 +302,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a40b3390ffa4781493f4cef083cbf87d",
     "url": "/lilachairstudio/static/media/img9-4.a40b3390.jpeg"
-  },
-  {
-    "revision": "875569c5860d555460b2869f90e195f3",
-    "url": "/lilachairstudio/static/media/lilac.875569c5.PNG"
   },
   {
     "revision": "aacf256e9dac0b35332b1e50e2d1d7ef",
