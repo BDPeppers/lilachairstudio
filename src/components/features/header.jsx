@@ -25,7 +25,7 @@ const Header  = () => {
                     <Link to='/lilachairstudio/Gallery'>Gallery</Link>
                 </div>
                 <div className='desktop-link'>
-                    <Link to='/lilachairstudio/Book'>Connect</Link>
+                    <Link to='/lilachairstudio/Connect'>Connect</Link>
                 </div>
             </div>
             <div className='mobile-links'>

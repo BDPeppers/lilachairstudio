@@ -29,7 +29,7 @@ function App() {
           <Route path="(/lilachairstudio/About)" exact component={About}/>
           <Route path="(/lilachairstudio/Services)" exact component={Services}/>
           <Route path="(/lilachairstudio/Gallery)" exact component={Gallery}/>
-          <Route path="(/lilachairstudio/Book)" exact component={Book}/>
+          <Route path="(/lilachairstudio/Connect)" exact component={Book}/>
           <Route path="(/lilachairstudio/Services/Service)" exact component={ServiceDetail}/>
         </Switch>
         </ScrollToTop>
