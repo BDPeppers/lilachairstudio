@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lilachairstudio/static/css/main.95d42e8c.chunk.css",
+    "main.css": "/lilachairstudio/static/css/main.066a31d5.chunk.css",
     "main.js": "/lilachairstudio/static/js/main.7bcac505.chunk.js",
     "main.js.map": "/lilachairstudio/static/js/main.7bcac505.chunk.js.map",
     "runtime-main.js": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js",
@@ -8,9 +8,9 @@
     "static/js/2.04695e8a.chunk.js": "/lilachairstudio/static/js/2.04695e8a.chunk.js",
     "static/js/2.04695e8a.chunk.js.map": "/lilachairstudio/static/js/2.04695e8a.chunk.js.map",
     "index.html": "/lilachairstudio/index.html",
-    "precache-manifest.a29749e698bd6d6c614c11ed83049439.js": "/lilachairstudio/precache-manifest.a29749e698bd6d6c614c11ed83049439.js",
+    "precache-manifest.6e0a8f3ecb4e575467922e8401eead1d.js": "/lilachairstudio/precache-manifest.6e0a8f3ecb4e575467922e8401eead1d.js",
     "service-worker.js": "/lilachairstudio/service-worker.js",
-    "static/css/main.95d42e8c.chunk.css.map": "/lilachairstudio/static/css/main.95d42e8c.chunk.css.map",
+    "static/css/main.066a31d5.chunk.css.map": "/lilachairstudio/static/css/main.066a31d5.chunk.css.map",
     "static/js/2.04695e8a.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.04695e8a.chunk.js.LICENSE.txt",
     "static/media/main.sass": "/lilachairstudio/static/media/root.62ade914.jpg",
     "static/media/MVP.PNG": "/lilachairstudio/static/media/MVP.dc87bf76.PNG",
@@ -90,7 +90,7 @@
   "entrypoints": [
     "static/js/runtime-main.7cbbdaa8.js",
     "static/js/2.04695e8a.chunk.js",
-    "static/css/main.95d42e8c.chunk.css",
+    "static/css/main.066a31d5.chunk.css",
     "static/js/main.7bcac505.chunk.js"
   ]
 }
