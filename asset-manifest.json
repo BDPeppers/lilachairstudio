@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/lilachairstudio/static/css/main.d0b50ae0.chunk.css",
-    "main.js": "/lilachairstudio/static/js/main.8ff6e31c.chunk.js",
-    "main.js.map": "/lilachairstudio/static/js/main.8ff6e31c.chunk.js.map",
+    "main.css": "/lilachairstudio/static/css/main.95d42e8c.chunk.css",
+    "main.js": "/lilachairstudio/static/js/main.7bcac505.chunk.js",
+    "main.js.map": "/lilachairstudio/static/js/main.7bcac505.chunk.js.map",
     "runtime-main.js": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js",
     "runtime-main.js.map": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js.map",
-    "static/js/2.6bf60821.chunk.js": "/lilachairstudio/static/js/2.6bf60821.chunk.js",
-    "static/js/2.6bf60821.chunk.js.map": "/lilachairstudio/static/js/2.6bf60821.chunk.js.map",
+    "static/js/2.04695e8a.chunk.js": "/lilachairstudio/static/js/2.04695e8a.chunk.js",
+    "static/js/2.04695e8a.chunk.js.map": "/lilachairstudio/static/js/2.04695e8a.chunk.js.map",
     "index.html": "/lilachairstudio/index.html",
-    "precache-manifest.4dbb4bd722d912e5aaecee7864dd15f7.js": "/lilachairstudio/precache-manifest.4dbb4bd722d912e5aaecee7864dd15f7.js",
+    "precache-manifest.a29749e698bd6d6c614c11ed83049439.js": "/lilachairstudio/precache-manifest.a29749e698bd6d6c614c11ed83049439.js",
     "service-worker.js": "/lilachairstudio/service-worker.js",
-    "static/css/main.d0b50ae0.chunk.css.map": "/lilachairstudio/static/css/main.d0b50ae0.chunk.css.map",
-    "static/js/2.6bf60821.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.6bf60821.chunk.js.LICENSE.txt",
+    "static/css/main.95d42e8c.chunk.css.map": "/lilachairstudio/static/css/main.95d42e8c.chunk.css.map",
+    "static/js/2.04695e8a.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.04695e8a.chunk.js.LICENSE.txt",
     "static/media/main.sass": "/lilachairstudio/static/media/root.62ade914.jpg",
     "static/media/MVP.PNG": "/lilachairstudio/static/media/MVP.dc87bf76.PNG",
+    "static/media/flower.PNG": "/lilachairstudio/static/media/flower.767f82e0.PNG",
     "static/media/img03-1.jpeg": "/lilachairstudio/static/media/img03-1.9d905c58.jpeg",
     "static/media/img1-1.jpeg": "/lilachairstudio/static/media/img1-1.9681ebaa.jpeg",
     "static/media/img10-1.jpeg": "/lilachairstudio/static/media/img10-1.b370c128.jpeg",
@@ -88,8 +89,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7cbbdaa8.js",
-    "static/js/2.6bf60821.chunk.js",
-    "static/css/main.d0b50ae0.chunk.css",
-    "static/js/main.8ff6e31c.chunk.js"
+    "static/js/2.04695e8a.chunk.js",
+    "static/css/main.95d42e8c.chunk.css",
+    "static/js/main.7bcac505.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13dac852003573e90685283fb4779810",
+    "revision": "278f95925f970e67caf9a71b159db890",
     "url": "/lilachairstudio/index.html"
   },
   {
-    "revision": "d5cc7af353a54e469497",
-    "url": "/lilachairstudio/static/css/main.d0b50ae0.chunk.css"
+    "revision": "4eaaa204059d1dc6dda3",
+    "url": "/lilachairstudio/static/css/main.95d42e8c.chunk.css"
   },
   {
-    "revision": "7f84ae498188b85189ef",
-    "url": "/lilachairstudio/static/js/2.6bf60821.chunk.js"
+    "revision": "898aadaaeceafd6c5846",
+    "url": "/lilachairstudio/static/js/2.04695e8a.chunk.js"
   },
   {
     "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/lilachairstudio/static/js/2.6bf60821.chunk.js.LICENSE.txt"
+    "url": "/lilachairstudio/static/js/2.04695e8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5cc7af353a54e469497",
-    "url": "/lilachairstudio/static/js/main.8ff6e31c.chunk.js"
+    "revision": "4eaaa204059d1dc6dda3",
+    "url": "/lilachairstudio/static/js/main.7bcac505.chunk.js"
   },
   {
     "revision": "7c121d8e3195b7bbd071",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6460cc53e9cd8173afecde7c5e6c3da",
     "url": "/lilachairstudio/static/media/consultation.e6460cc5.jpg"
+  },
+  {
+    "revision": "767f82e07f3d9ea8ba2e4541dd15c85b",
+    "url": "/lilachairstudio/static/media/flower.767f82e0.PNG"
   },
   {
     "revision": "9d905c585c4d3b37dceae42d3ecce5c5",
