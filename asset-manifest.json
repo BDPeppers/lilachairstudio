@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lilachairstudio/static/css/main.b9626dac.chunk.css",
-    "main.js": "/lilachairstudio/static/js/main.7bcac505.chunk.js",
-    "main.js.map": "/lilachairstudio/static/js/main.7bcac505.chunk.js.map",
+    "main.css": "/lilachairstudio/static/css/main.77e64655.chunk.css",
+    "main.js": "/lilachairstudio/static/js/main.24d5efed.chunk.js",
+    "main.js.map": "/lilachairstudio/static/js/main.24d5efed.chunk.js.map",
     "runtime-main.js": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js",
     "runtime-main.js.map": "/lilachairstudio/static/js/runtime-main.7cbbdaa8.js.map",
-    "static/js/2.04695e8a.chunk.js": "/lilachairstudio/static/js/2.04695e8a.chunk.js",
-    "static/js/2.04695e8a.chunk.js.map": "/lilachairstudio/static/js/2.04695e8a.chunk.js.map",
+    "static/js/2.fa21cbfb.chunk.js": "/lilachairstudio/static/js/2.fa21cbfb.chunk.js",
+    "static/js/2.fa21cbfb.chunk.js.map": "/lilachairstudio/static/js/2.fa21cbfb.chunk.js.map",
     "index.html": "/lilachairstudio/index.html",
-    "precache-manifest.b934316ab49fc72925f9ae035f321d87.js": "/lilachairstudio/precache-manifest.b934316ab49fc72925f9ae035f321d87.js",
+    "precache-manifest.35715b096bffa8c4b442b1af6bd6c6dc.js": "/lilachairstudio/precache-manifest.35715b096bffa8c4b442b1af6bd6c6dc.js",
     "service-worker.js": "/lilachairstudio/service-worker.js",
-    "static/css/main.b9626dac.chunk.css.map": "/lilachairstudio/static/css/main.b9626dac.chunk.css.map",
-    "static/js/2.04695e8a.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.04695e8a.chunk.js.LICENSE.txt",
+    "static/css/main.77e64655.chunk.css.map": "/lilachairstudio/static/css/main.77e64655.chunk.css.map",
+    "static/js/2.fa21cbfb.chunk.js.LICENSE.txt": "/lilachairstudio/static/js/2.fa21cbfb.chunk.js.LICENSE.txt",
     "static/media/main.sass": "/lilachairstudio/static/media/root.62ade914.jpg",
     "static/media/MVP.PNG": "/lilachairstudio/static/media/MVP.dc87bf76.PNG",
     "static/media/flower.PNG": "/lilachairstudio/static/media/flower.767f82e0.PNG",
@@ -81,7 +81,6 @@
     "static/media/img9-2.jpeg": "/lilachairstudio/static/media/img9-2.1615e07a.jpeg",
     "static/media/img9-3.jpeg": "/lilachairstudio/static/media/img9-3.bb39e2ef.jpeg",
     "static/media/img9-4.jpeg": "/lilachairstudio/static/media/img9-4.a40b3390.jpeg",
-    "static/media/lilacHome.png": "/lilachairstudio/static/media/lilacHome.aacf256e.png",
     "static/media/logo.jpg": "/lilachairstudio/static/media/logo.13f16f9b.jpg",
     "static/media/space1.PNG": "/lilachairstudio/static/media/space1.b47b482b.PNG",
     "static/media/space2.PNG": "/lilachairstudio/static/media/space2.67539e8d.PNG",
@@ -89,8 +88,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7cbbdaa8.js",
-    "static/js/2.04695e8a.chunk.js",
-    "static/css/main.b9626dac.chunk.css",
-    "static/js/main.7bcac505.chunk.js"
+    "static/js/2.fa21cbfb.chunk.js",
+    "static/css/main.77e64655.chunk.css",
+    "static/js/main.24d5efed.chunk.js"
   ]
 }
