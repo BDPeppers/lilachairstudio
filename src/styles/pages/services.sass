@@ -1,16 +1,7 @@
 @import './../mfv'   
-
-div.service-cards
-    @include flex(center, row)
-    flex-wrap: wrap
-    padding-bottom: 7rem
-    div.service-card
-        flex-basis: 95%
-        margin: 1.5rem .5rem
-        height: 50vh
-        @media screen and ( min-width: 700px )
-            flex-basis: 35%
-            margin: 1.5rem 1rem
+section
+    div.service-content-box
+        width: 90%
 
 div.underline-header
     width: 45%
@@ -24,6 +15,7 @@ div.underline-header
         margin-left: 10vw
     h1.header
         font-size: 3rem
+
 
 h2.service-header
     font-size: 2rem
@@ -50,6 +42,7 @@ div.service-box
         width: 55% 
         p
             text-shadow: .05rem 0 gray
+            padding: .5rem 0
 
 div.section-divider
     background-color: $line-gray
@@ -192,3 +185,4 @@ div.service-btn
     margin: auto
     @media screen and ( min-width: 700px )
         padding-bottom: 10rem
+

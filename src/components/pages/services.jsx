@@ -2,31 +2,20 @@ import React from 'react'
 //imported components
 import Header from '../features/header';
 import Footer from '../features/footer';
-// import ServiceCard from '../features/serviceCard';
 import Button from '@material-ui/core/Button';
 
-// //design assets
-// import Consultaion from '../../imgs/services/consultation.jpg'
-// import Blowout from '../../imgs/services/blowout.jpg'
-// import Detailing from '../../imgs/services/Detailing.jpg'
-// import Haircut from '../../imgs/services/haircut.jpg'
-// import fullHighlight from '../../imgs/services/fullHighlight.jpg'
-// import Partial from '../../imgs/services/Partial.jpg'
-// import Treatment from '../../imgs/services/Treatment.jpg'
-// import Root from '../../imgs/services/root.jpg'
-// import Balayage from '../../imgs/services/balayage.jpg'
-// import Care from '../../imgs/services/care.jpg'
+
 
 const Services = () => {
     return (
         <>
         <Header/>
         <section>
-            <div className="content-box content-header-box">
+            <div className="content-box content-header-box service-content-box">
                 <h2 className='content service-content'>
                     Lilac Hair Studio guarantees professional skill, Atlanta's best hair salon customer service, 
                     the highest quality products, and a welcoming environment for EVERYONE. Meeting all your of 
-                    your hair care needs, our services include hair coloring, cuts, blowouts, chemical services 
+                    hair care needs, our services include hair coloring, cuts, blowouts, chemical services 
                     such as keratin smoothing treatments, and conditioning treatments. We welcome hair services for
                     women, men, and children of all textures.
                 </h2>
@@ -41,7 +30,7 @@ const Services = () => {
                 <div className="service">
                     <h2 className="service-name">Consultation</h2>
                     <p className="service-desc">
-                        Wanting a new look, style, or a bit of color?
+                        Do you want a new look, style, or a bit of color?
                         Let's start from the beginning and discuss the
                         best way to get you there.
                     </p>
@@ -256,6 +245,15 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+
+
+            <div className="content-box ">
+               <h1 className="content content-header">Products</h1>
+               <p className='content caption'>
+                   We use Davine's  Sustainable hair care products, made from all natural ingredients and manufactured using only renewable energy.
+               </p>
+               <a className="content-link" href="http://https://us.davines.com/">https://us.davines.com/</a>
+           </div>
 
             <div className="service-btn-box">
                 <Button className='service-btn' variant="contained" color="primary" href='https://kristinmealor.glossgenius.com/services'>

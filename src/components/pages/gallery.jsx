@@ -18,7 +18,6 @@ const Gallery = () => {
                 <h1 className="content content-header service-header">Hair Gallery</h1>
             </div>
             
-            {/* <Carousel /> */}
             <GalleryScroll/>
 
             <div className="service-btn-box">

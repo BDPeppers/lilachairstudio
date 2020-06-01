@@ -1,3 +1,4 @@
+@import './../mfv'   
 div.landing-page
     div.bookPage-img-box 
         height: 35vh
@@ -8,6 +9,7 @@ div.book-page
     justify-content: unset !important
     height: unset !important
     background-image: none !important
+    
 div.book-box
     align-items: center
     h2.content
@@ -24,3 +26,98 @@ div.book-box
 div.book-social
     max-width: 50rem
     outline: 0
+
+
+div.connect-grid
+    width: 100%
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    padding: 10rem 0
+    h1.connect
+        font-size: 2rem
+        padding: 2rem 1rem
+        flex-basis: 100%
+        text-align: center
+        @media screen and ( min-width: 700px )
+            font-size: 3.5rem
+    div.connect-boxes
+        display: flex
+        flex-direction: column
+        @media screen and ( min-width: 700px )
+            display: grid
+            grid-template-columns: 1fr 1fr
+            grid-auto-rows: 20rem
+            
+
+        div.bottom
+            @media screen and ( min-width: 700px )
+                border-bottom: $line-gray 0.1rem solid
+        div.side
+            @media screen and ( min-width: 700px )
+                border-left: $line-gray 0.1rem solid
+        div.connect-box
+            @include flexCenter()
+            flex-wrap: wrap
+            overflow: hidden
+            padding: 1rem
+            
+        div.connect-contact
+            h1.detail
+                font-size: 2.5rem
+                text-align: center
+                @media screen and ( min-width: 700px )
+                    font-size: 3rem
+            h2.detail
+                font-size: 1.7rem
+                flex-basis: 100%
+                text-align: center
+                @media screen and ( min-width: 700px )
+                    font-size: 2.5rem
+            h1.detail, h2.detail
+                padding: .5rem 0
+            
+
+        div.connect-social
+            a
+                padding: 1rem
+                @media screen and ( min-width: 700px )
+                    padding: 1rem 2rem 
+            svg.connect-social
+                font-size: 4.5rem
+                @media screen and ( min-width: 700px )
+                    font-size: 7.5rem
+            .facebook
+                color: #3b5998
+            .yelp
+                color: #c41200
+            .insta
+                color: $white
+                font-size: 3rem !important
+                @media screen and ( min-width: 425px )
+                    font-size: 4rem !important
+                @media screen and ( min-width: 700px )
+                    font-size: 6.5rem !important
+            a.insta-link
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)
+                padding: .3rem .5rem
+                border-radius: 1rem
+
+        div.connect-book
+            div.service-btn-box
+                width: 100% !important
+                a.MuiButtonBase-root
+                    @media screen and ( min-width: 700px )
+                        width: 75% !important
+
+        div.connect-logo
+            img
+                max-width: 40rem
+            
+            
+               
+
+
+
+
+        

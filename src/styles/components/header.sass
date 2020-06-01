@@ -4,8 +4,12 @@ header
     min-height: fit-content
     height: 10vh
     max-height: 10vh
-    border-bottom: solid .1rem $line-gray
-    background-color: $flower
+    border-bottom: solid .25rem $flower
+    background-color: #595A5C
+    box-shadow: 1px 0px 10px 0px darken(#595A5C, 15% )
+    position: fixed
+    width: 100vw
+    z-index: 2
 
 nav
     width: 100%
@@ -28,12 +32,23 @@ div.nav-flower
            height: 6rem
            width: 15rem    
 
+    img.flower
+        height: 3.5rem
+        width: 3.5rem
+        @media screen and ( min-width: 575px )
+            height: 4.5rem
+            width: 4.5rem
+        @media screen and ( min-width: 700px )
+            height: 5rem
+            width: 5rem
+
 div.mobile-links
     @media screen and ( min-width: 900px )
         display: none
     .MuiSvgIcon-root
         font-size: 4rem
-        color: white
+        // color: darken($line-gray, 35%)
+        color: $white
 div.desktop-links
     display: none
     height: 100%
@@ -47,11 +62,14 @@ div.desktop-link
     overflow: hidden
     height: 100%
     flex-basis: 25%
+    padding-right: 1.5rem
     @include flexCenter()
     a
         height: 100%
         width: 100%
-        color: white
+        // color: darken($line-gray, 35%)
+        color: $white
+        text-shadow: .099rem 0 gray
         font-weight: 100
         @include flexCenter()
     a:hover

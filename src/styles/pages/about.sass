@@ -1,10 +1,95 @@
 @import './../mfv'    
 section
+    div.about-landing
+        display: flex
+        padding-top: 8vh
+        margin: auto
+        max-width: 1024px
+        max-height: 70rem
+        height: 100%
+        overflow: hidden
+        flex-wrap: wrap
+        @media screen and ( min-width: 700px )
+            padding-bottom: 6rem
+            flex-wrap: unset
+    div.k-box
+        padding-bottom: 2.5rem
+        @media screen and ( min-width: 700px )
+            padding-top: 3rem
+    div.mvp-box
+        width: 75vw
+        margin: auto
+       
+        @media screen and ( min-width: 700px )
+            margin: unset
+    div.mvp-box, div.kristin-box
+        display: flex
+        flex-direction: column
+        padding: 0 2rem
+        max-width: 512px
+        @media screen and ( min-width: 770px )
+            width: 50%
+        div.img-box
+            max-width: 40rem
+            overflow: hidden
+        div.titles
+            max-width: 40rem
+            display: flex
+            align-items: center
+            flex-direction: column
+            @media screen and ( min-width: 770px )
+                flex-direction: row
+            h1.mvp-detail
+                flex-basis: 33%
+                width: 75%
+                text-align: center
+                font-size: 1.5rem
+                @media screen and ( min-width: 425px )
+                    font-size: 1.7rem
+                @media screen and ( min-width: 770px )
+                    font-size: 2rem
+                    width: 100%
+                    
+            h1.center
+                border-top: solid .1rem $line-gray
+                border-bottom: solid .1rem $line-gray
+                @media screen and ( min-width: 770px )
+                    border-right: solid .1rem $line-gray
+                    border-left: solid .1rem $line-gray
+                    border-top: 0
+                    border-bottom: 0
+    div.kristin-box
+        h1.km
+            font-size: 3rem
+            padding-top: unset !important
+            // font-weight: 900
+            padding-top: 2rem
+            @media screen and ( min-width: 425px )
+                font-size: 4.5rem 
+            @media screen and ( min-width: 770px ) 
+                font-size: 6.5rem
+
+        h2.km-skills
+            font-size: 1.5rem
+            padding-bottom: .5rem
+            text-shadow: .1rem 0 $line-gray
+            @media screen and ( min-width: 425px )
+                font-size: 2rem
+            @media screen and ( min-width: 700px )
+                font-size: 3rem
+        p.skills, p.quote
+            font-size: 1.5rem
+            @media screen and ( min-width: 425px )
+                font-size: 1.7rem
+            @media screen and ( min-width: 700px )
+                font-size: 2rem
+        p.quote
+            padding-top: 5rem
+  
     div.about-box, div.quote-box
         width: 90%
         margin: auto
-        padding: 1rem 0
-        
+        padding: 3rem 0
         p.content
             text-align: left
     div.quote-box
@@ -27,4 +112,8 @@ section
             border-radius: .5rem
             @media screen and ( min-width: 900px )
                 width: 75%
+
+
+    div.about-bottom
+        padding-bottom: 10rem
         

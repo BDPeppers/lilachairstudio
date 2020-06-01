@@ -43,7 +43,8 @@ export default function Nav() {
       <List>
         {['Home', 'About', 'Services', 'Gallery', 'Connect'].map((text, index) => (
          <>
-         <ListItem button key={text} component={Link} to={'/lilachairstudio/'+text}>
+         {/* <ListItem button key={text} component={Link} to={'/lilachairstudio/'+text}> */}
+         <ListItem button key={text} component={Link} to={'/'+text}>
             <ListItemText primary={text} />
           </ListItem>
           <Divider/>

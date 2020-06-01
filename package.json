@@ -2,7 +2,7 @@
   "name": "l",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bdpeppers.github.io/lilachairstudio/",
+  "homepage": "https://lilachairstudio.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
@@ -31,7 +31,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy-production": "react-scripts build && scp -r ./build/* root@167.99.160.226:/var/www/lilachairstudio.com/html"
   },
   "eslintConfig": {
     "extends": "react-app"

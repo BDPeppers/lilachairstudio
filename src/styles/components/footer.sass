@@ -27,18 +27,22 @@ div.foot-sect
             font-size: 4.5rem
     div.foot-text
         width: 70%
-    h2.foot-detail, h2.day, h2.open, h2.close, h2.dash,a.foot-link
+    h2.foot-detail, h2.day, a.foot-link
         font-size: 1.4rem
+        text-shadow: .05rem 0 gray
         @media screen and ( min-width: 425px )
             font-size: 1.7rem
-        @media screen and ( min-width: 700px )
-            font-size: 2rem
+        // @media screen and ( min-width: 700px )
+        //     font-size: 2rem
     a.foot-link
        .foot-detail
            font-weight: 700
+           text-shadow: .05rem 0 gray
 div.foot-hours
-    h2.foot-detail, h2.day, h2.open, h2.close, h2.dash,a.foot-link
+    h2.foot-detail, h2.day, h2.time,a.foot-link
         font-size: 1.2rem
+        padding-top: .5rem
+        text-shadow: .05rem 0 gray
         @media screen and ( min-width: 425px )
             font-size: 1.5rem
     a.foot-link
@@ -50,12 +54,10 @@ div.format
     @media screen and ( min-width: 425px )
         width: 70%
     h2.day
-        width: 20%
-    h2.open
-        width: 30%
-    h2.dash
-        width: 10%
-    padding: .1rem 0
+        width: 4rem
+        padding-right: 1rem
+    h2.time
+        width: 80%
 
     
 div.foot-social-sect

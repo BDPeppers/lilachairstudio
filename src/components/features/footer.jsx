@@ -14,7 +14,7 @@ const Footer  = () => {
     <footer>
         <div className="foot-wrap">
 
-        <div className='foot-sect foot-social-sect'>
+            <div className='foot-sect foot-social-sect'>
                 <a href="https://www.facebook.com/LilacHairStudioATL/">
                 <FontAwesomeIcon className="foot-social facebook" icon={faFacebookSquare} />
                 </a>
@@ -31,6 +31,7 @@ const Footer  = () => {
                     <h2 className="foot-detail">2531 Piedmont Rd NE STE 100</h2>
                     <h2 className="foot-detail">Suite 113</h2>
                     <h2 className="foot-detail">Atlanta, GA 30324</h2>
+                    <h2 className="foot-detail">Located inside of My Salon Suite</h2>
                     <a className='foot-link' href='https://goo.gl/maps/N4mYzB4GbMmnLemB7'>
                         <h2 className="foot-detail">View on map</h2>
                     </a>
@@ -42,41 +43,31 @@ const Footer  = () => {
                 <div className="foot-text">
                     <div className="format">
                         <h2 className="day">MON:</h2>
-                        <h2 className="open">CLOSED</h2>
+                        <h2 className="time">CLOSED</h2>
                     </div>
                     <div className="format">
                         <h2 className="day">TUE:</h2>
-                        <h2 className="open">12:00PM</h2>
-                        <h2 className="dash">-</h2>
-                        <h2 className="close">5:00PM</h2>
+                        <h2 className="time">12PM - 6PM</h2>
                     </div>
                     <div className="format">
                         <h2 className="day">WED:</h2>
-                        <h2 className="open">10:00AM</h2>
-                        <h2 className="dash">-</h2>
-                        <h2 className="close">4:00PM</h2>
+                        <h2 className="time">10AM - 4PM</h2>
                     </div>
                     <div className="format">
                         <h2 className="day">THU:</h2>
-                        <h2 className="open">12:00PM</h2>
-                        <h2 className="dash">-</h2>
-                        <h2 className="close">8:00PM</h2>
+                        <h2 className="time">12PM - 8PM</h2>
                     </div>
                     <div className="format">
                         <h2 className="day">FRI:</h2>
-                        <h2 className="open">10:00AM</h2>
-                        <h2 className="dash">-</h2>
-                        <h2 className="close">4:00PM</h2>
+                        <h2 className="time">10AM - 5PM</h2>
                     </div>
                     <div className="format">
                         <h2 className="day">SAT:</h2>
-                        <h2 className="open">9:00AM</h2>
-                        <h2 className="dash">-</h2>
-                        <h2 className="close">5:00PM</h2>
+                        <h2 className="time">Appointment Only</h2>
                     </div>
                     <div className="format">
                         <h2 className="day">SUN:</h2>
-                        <h2 className="open">CLOSED</h2>
+                        <h2 className="time">CLOSED</h2>
                     </div>
                 </div>
             </div>

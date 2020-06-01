@@ -45,7 +45,7 @@ const Home = () => {
                 <div className="page-card right-border">
                     <h1 className="card-header">Gallery</h1>
                     <h3 className="card-desc">
-                        Find inspiration for you new look... 
+                        Find inspiration for your new look... 
                     </h3>
                     <Link to='/lilachairstudio/Gallery'>
                         <KeyboardArrowRightIcon className='card-arrow'/>
@@ -53,7 +53,7 @@ const Home = () => {
                 </div>
                 <div className="page-card top-border">
                     <h1 className="card-header">Connect</h1>
-                    <h3 className="card-desc">Find about more about the studio...products...location..social media</h3>
+                    <h3 className="card-desc">Find about more about the studio, get in touch, and feel welcomed</h3>
                     <Link to='/lilachairstudio/Book'>
                         <KeyboardArrowRightIcon className='card-arrow'/>
                     </Link>
